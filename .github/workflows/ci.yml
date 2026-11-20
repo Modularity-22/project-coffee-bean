@@ -32,7 +32,7 @@ jobs:
         # The build is deterministic, so a data change without a rebuilt app
         # database shows up here as a diff.
         run: git diff --exit-code -- apps/mobile/assets/data apps/mobile/src/db-version.ts
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: dataset
           path: dist/
