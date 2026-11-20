@@ -7,14 +7,30 @@ updates:
     groups:
       tooling:
         patterns: ['*']
+    ignore:
+      # typescript-eslint supports TypeScript below 6.1 only. Remove this once it supports 7.
+      - dependency-name: typescript
+        update-types: ['version-update:semver-major']
+      # Node's types follow the Node version in .nvmrc, not the newest Node.
+      - dependency-name: '@types/node'
+        update-types: ['version-update:semver-major']
   - package-ecosystem: npm
     directory: /apps/mobile
     schedule:
       interval: monthly
-    # Expo pins compatible versions per SDK; upgrade those with `npx expo install --fix`.
+    groups:
+      app-tooling:
+        patterns: ['*']
     ignore:
+      # Expo pins compatible versions per SDK; upgrade those with `npx expo install --fix`.
       - dependency-name: 'expo*'
       - dependency-name: 'react*'
+      - dependency-name: eslint-config-expo
+      - dependency-name: typescript
+      # eslint-config-expo uses eslint-plugin-react, which supports ESLint 9 at most.
+      # Remove this once eslint-config-expo supports ESLint 10.
+      - dependency-name: eslint
+        update-types: ['version-update:semver-major']
   - package-ecosystem: github-actions
     directory: /
     schedule:
