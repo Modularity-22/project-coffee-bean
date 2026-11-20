@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="assets/brand/logo.png" alt="Project Coffee Bean" width="220">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/images/logo-on-cream.png">
+    <img src="docs/images/logo.png" alt="Project Coffee Bean" width="220">
+  </picture>
 </p>
 
 <h3 align="center">Know what is in your cup, and who roasted it.</h3>
