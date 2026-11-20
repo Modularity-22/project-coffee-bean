@@ -33,7 +33,8 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "typecheck": "tsc --noEmit",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "export:pages": "expo export -p web && node scripts/prepare-pages.mjs"
   },
   "private": true,
   "license": "MIT"

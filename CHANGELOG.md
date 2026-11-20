@@ -34,6 +34,9 @@ All notable changes to this project are recorded here. The format follows
   match) and skips anything a site closes to crawlers. Its user agent links to this repository.
 - CI checks that the app's bundled database matches the data, and lints and type-checks the app.
 - README rewritten as the project page: aims, current coverage, roadmap and ways to help.
+- The app's web version is published to GitHub Pages on every change to the app or its data. A
+  small service worker supplies the cross-origin isolation that the in-browser database needs,
+  since Pages cannot set response headers.
 - Start-up animation with the logo (native splash, then an animated intro while the catalogue
   opens), a redesigned home page (logo hero, bean of the day, flavour families, learn-to-taste
   card), a branded header and a new tab bar. The app icon now uses the logo mark.

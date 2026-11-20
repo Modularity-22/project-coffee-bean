@@ -20,6 +20,10 @@
 </p>
 
 <p align="center">
+  <a href="https://modularity-22.github.io/project-coffee-bean/"><strong>Try the app in your browser →</strong></a>
+</p>
+
+<p align="center">
   <a href="#why-this-project-exists">Why</a> ·
   <a href="#what-works-today">What works today</a> ·
   <a href="#where-we-are-going">Roadmap</a> ·
@@ -73,14 +77,14 @@ validator rejects instant products.
 - **10 cafe drinks**. Which drink uses which bean is the thinnest part of the data so far, because
   few roasters publish it.
 
-| Part                                             | What it does                                                                                              |
-| ------------------------------------------------ | --------------------------------------------------------------------------------------------------------- |
-| [Data files](data/companies)                     | One YAML file per roaster. Changes come in as pull requests and are checked by CI.                        |
-| [Relational database](docs/data-model.md)        | A PostgreSQL schema and seed, and a SQLite snapshot with the same tables.                                 |
-| [Knowledge graph](docs/ontology.md)              | Neo4j Cypher and CSV, and RDF in Turtle and JSON-LD with schema.org terms.                                |
-| [Mobile app](apps/mobile)                        | Android and iOS (Expo, React Native). Works offline. Browse by roaster, bean, origin or flavour.          |
-| [Flavour vocabulary](docs/flavour-vocabulary.md) | A strict set of terms based on the SCA and WCR Coffee Taster's Flavor Wheel.                              |
-| [Scraper](docs/scraper.md)                       | Drafts roaster files from Shopify and WooCommerce shops. Makes one request a second and obeys robots.txt. |
+| Part                                             | What it does                                                                                                                                                             |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [Data files](data/companies)                     | One YAML file per roaster. Changes come in as pull requests and are checked by CI.                                                                                       |
+| [Relational database](docs/data-model.md)        | A PostgreSQL schema and seed, and a SQLite snapshot with the same tables.                                                                                                |
+| [Knowledge graph](docs/ontology.md)              | Neo4j Cypher and CSV, and RDF in Turtle and JSON-LD with schema.org terms.                                                                                               |
+| [Mobile app](apps/mobile)                        | Android and iOS (Expo, React Native), and [on the web](https://modularity-22.github.io/project-coffee-bean/). Works offline. Browse by roaster, bean, origin or flavour. |
+| [Flavour vocabulary](docs/flavour-vocabulary.md) | A strict set of terms based on the SCA and WCR Coffee Taster's Flavor Wheel.                                                                                             |
+| [Scraper](docs/scraper.md)                       | Drafts roaster files from Shopify and WooCommerce shops. Makes one request a second and obeys robots.txt.                                                                |
 
 ## How it works
 
@@ -188,6 +192,10 @@ npx expo start
 
 The app reads a SQLite snapshot bundled at `apps/mobile/assets/data/coffee.db`. After changing data,
 run `npm run build:sqlite` at the repository root to refresh it.
+
+The web version is published to [GitHub Pages](https://modularity-22.github.io/project-coffee-bean/)
+by the [Web app workflow](.github/workflows/pages.yml) whenever the app or its data changes on `main`.
+To build it yourself, run `EXPO_BASE_URL=/project-coffee-bean npm run export:pages` in `apps/mobile`.
 
 ### PostgreSQL and Neo4j
 
