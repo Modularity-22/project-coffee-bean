@@ -1,0 +1,337 @@
+id: blue-tokai
+name: Blue Tokai Coffee Roasters
+country: IN
+website: https://bluetokaicoffee.com
+description: Indian specialty roaster that buys from estates it sources from directly and sells through its own cafes and website.
+has_cafes: true
+verified: true
+sources:
+  - url: https://bluetokaicoffee.com/pages/about-us
+    retrieved: 2026-11-15
+    note: Confirms the company runs cafes; cafe count and cities are not stated there.
+  - url: https://bluetokaicoffee.com/collections/roasted-and-ground-coffee-beans
+    retrieved: 2026-11-15
+  - url: https://bluetokaicoffee.com/collections/coffee
+    retrieved: 2026-11-19
+    note: Ratings (sweetness, acidity, body, bitterness), "have it" and added beans were read by the scraper from each product page's labelled fields. Sandalwood Estate, Dhak Blend and Amaltas Blend were checked by hand against their pages.
+beans:
+  - id: kolli-berri-estate
+    name: Kolli Berri Estate
+    forms:
+      - whole_bean
+    roast_level: medium-dark
+    origins:
+      - country: IN
+        region: Chikmagalur, Karnataka
+        producer: Kolli Berri Estate
+    flavor_notes:
+      - chocolate
+      - nutty
+      - dried-fruit
+    roaster_notes: Chocolatey and nutty flavour profile with an aroma of dried fruits.
+    url: https://bluetokaicoffee.com/products/kolli-berri-estate
+    retrieved: 2026-11-15
+    profile:
+      sweetness: 2
+      body: 3
+      acidity: 1
+      bitterness: 2
+    serve: either
+  - id: elkhill-estate
+    name: Elkhill Estates
+    forms:
+      - whole_bean
+    roast_level: medium
+    process: anaerobic-washed
+    altitude_m:
+      min: 457
+      max: 1067
+    flavor_notes:
+      - brown-sugar
+      - almond
+      - orange
+      - brown-spice
+      - hazelnut
+    roaster_notes: Brown sugar and roasted almonds on the aroma; orange, brown spice and roasted hazelnut in the cup.
+    url: https://bluetokaicoffee.com/products/elkhill-estate
+    retrieved: 2026-11-15
+    profile:
+      sweetness: 2
+      body: 3
+      acidity: 2
+      bitterness: 2
+    serve: either
+  - id: diwali-blend
+    name: Diwali Blend
+    forms:
+      - whole_bean
+    roast_level: medium
+    blend: true
+    flavor_notes:
+      - molasses
+      - citrus-fruit
+      - grapefruit
+      - raisin
+      - almond
+      - chocolate
+    roaster_notes: Molasses and sweet citrus, grapefruit, golden raisins, roasted almonds, chocolatey finish.
+    url: https://bluetokaicoffee.com/products/diwali-blend
+    availability: seasonal
+    retrieved: 2026-11-15
+    profile:
+      sweetness: 3
+      body: 3
+      acidity: 2
+      bitterness: 2
+    serve: either
+  - id: kalledevarapura-pulp-sun-dried
+    name: Kalledevarapura Estate - Pulp Sun Dried
+    forms:
+      - whole_bean
+    url: https://bluetokaicoffee.com/products/kalledevarapura-pulp-sun-dried
+    retrieved: 2026-11-19
+    roast_level: medium
+    process: natural
+    flavor_notes:
+      - brown-sugar
+      - almond
+      - raisin
+    roaster_notes: brown sugar, roasted almond, and raisin
+    profile:
+      sweetness: 3
+      body: 2
+      acidity: 2
+      bitterness: 1
+    serve: either
+    brew_methods:
+      - espresso
+      - moka-pot
+      - aeropress
+      - pour-over
+  - id: yelnoorkhan-estate
+    name: Yelnoorkhan Estate
+    forms:
+      - whole_bean
+      - ground
+    url: https://bluetokaicoffee.com/products/yelnoorkhan-estate
+    retrieved: 2026-11-19
+    roast_level: medium
+    flavor_notes:
+      - almond
+      - caramelized
+      - nutty
+      - orange
+    roaster_notes: roasted almond and toffee impart a nutty sweetness, perfectly complemented by the zesty brightness of mandarin orange
+    profile:
+      sweetness: 2
+      body: 2
+      acidity: 3
+      bitterness: 1
+    serve: either
+    brew_methods:
+      - espresso
+      - moka-pot
+      - aeropress
+      - pour-over
+  - id: baarbara-estate-whiskey-barrel
+    name: Baarbara Estate - Whiskey Barrel Aged
+    forms:
+      - whole_bean
+    url: https://bluetokaicoffee.com/products/baarbara-estate-whiskey-barrel
+    retrieved: 2026-11-19
+    process: experimental
+    flavor_notes:
+      - other-fruit
+      - whiskey
+      - woody
+      - cocoa
+    roaster_notes: red plum, whiskey oak, ripe banana, and cocoa
+    profile:
+      sweetness: 3
+      body: 3
+      acidity: 2
+      bitterness: 1
+    serve: either
+  - id: sandalwood-estate
+    name: Sandalwood Estate
+    forms:
+      - whole_bean
+    url: https://bluetokaicoffee.com/products/sandalwood-estate
+    retrieved: 2026-11-19
+    roast_level: medium-dark
+    flavor_notes:
+      - dark-chocolate
+      - prune
+      - orange
+    roaster_notes: rich dark chocolate, sweet prune and zesty orange marmalade
+    profile:
+      sweetness: 2
+      body: 3
+      acidity: 2
+      bitterness: 2
+    serve: either
+    brew_methods:
+      - espresso
+      - moka-pot
+      - french-press
+  - id: monsoon-malabar
+    name: Monsoon Malabar AA- Hoysala Estate
+    forms:
+      - whole_bean
+    url: https://bluetokaicoffee.com/products/monsoon-malabar
+    retrieved: 2026-11-19
+    roast_level: medium-dark
+    process: monsooned
+    flavor_notes:
+      - cocoa
+      - dried-fruit
+      - dark-chocolate
+    roaster_notes: cocoa nib s and dried fruit, concluding with the aftertaste of dark chocolate
+    profile:
+      sweetness: 2
+      body: 3
+      acidity: 1
+      bitterness: 3
+    serve: either
+    brew_methods:
+      - espresso
+      - moka-pot
+      - french-press
+  - id: unakki-estate-washed
+    name: Unakki Estate
+    forms:
+      - whole_bean
+    url: https://bluetokaicoffee.com/products/unakki-estate-washed
+    retrieved: 2026-11-19
+    roast_level: medium
+    flavor_notes:
+      - chocolate
+      - brown-spice
+      - raisin
+    roaster_notes: chocolate, brown spices and raisins
+    profile:
+      sweetness: 3
+      body: 3
+      acidity: 2
+      bitterness: 2
+    serve: either
+  - id: m-s-estate
+    name: M.S. Estate
+    forms:
+      - whole_bean
+    url: https://bluetokaicoffee.com/products/m-s-estate
+    retrieved: 2026-11-19
+    roast_level: medium
+    flavor_notes:
+      - other-fruit
+      - peach
+    roaster_notes: apricots and peaches, sets the stage for each sip
+    profile:
+      sweetness: 2
+      body: 2
+      acidity: 2
+      bitterness: 2
+    brew_methods:
+      - espresso
+      - moka-pot
+      - aeropress
+      - pour-over
+    serve: either
+  - id: st-joseph-estate
+    name: St. Joseph Estate
+    forms:
+      - whole_bean
+    url: https://bluetokaicoffee.com/products/st-joseph-estate
+    retrieved: 2026-11-19
+    roast_level: medium-dark
+    profile:
+      sweetness: 2
+      body: 3
+      acidity: 2
+      bitterness: 3
+    serve: either
+  - id: dhak-blend
+    name: Dhak Blend
+    forms:
+      - whole_bean
+    url: https://bluetokaicoffee.com/products/dhak-blend
+    retrieved: 2026-11-19
+    blend: true
+    flavor_notes:
+      - dark-chocolate
+      - fruity
+      - cocoa
+    roaster_notes: dark chocolate and fruit jam, this blend's heavy cocoa body leaves a smooth lingering aftertaste
+    profile:
+      sweetness: 2
+      body: 4
+      acidity: 1
+      bitterness: 3
+    serve: milk
+  - id: amaltas-blend
+    name: Amaltas Blend
+    forms:
+      - whole_bean
+    url: https://bluetokaicoffee.com/products/amaltas-blend
+    retrieved: 2026-11-19
+    blend: true
+    flavor_notes:
+      - blueberry
+      - chocolate
+    roaster_notes: blueberry and milk chocolate, with each sip concluding with a chocolatey finish
+    profile:
+      sweetness: 3
+      body: 2
+      acidity: 3
+      bitterness: 1
+    serve: black
+  - id: sicc-mooleh-manay-estate
+    name: SICC – Mooleh Manay Estate
+    forms:
+      - whole_bean
+    url: https://bluetokaicoffee.com/products/sicc-mooleh-manay-estate
+    retrieved: 2026-11-19
+    roast_level: light
+    flavor_notes:
+      - other-fruit
+      - winey
+      - cherry
+    roaster_notes: plum, wine, and red cherry
+    profile:
+      sweetness: 3
+      body: 2
+      acidity: 3
+      bitterness: 1
+    serve: black
+  - id: attikan-estate
+    name: Attikan Estate
+    forms:
+      - whole_bean
+    url: https://bluetokaicoffee.com/products/attikan-estate
+    retrieved: 2026-11-19
+    roast_level: medium-dark
+    profile:
+      sweetness: 2
+      body: 3
+      acidity: 2
+      bitterness: 3
+    serve: either
+  - id: silver-oak-cafe-blend
+    name: Silver Oak Café Blend
+    forms:
+      - whole_bean
+    url: https://bluetokaicoffee.com/products/silver-oak-cafe-blend
+    retrieved: 2026-11-19
+    roast_level: medium
+    blend: true
+    profile:
+      sweetness: 2
+      body: 3
+      acidity: 2
+      bitterness: 2
+    serve: either
+    brew_methods:
+      - cold-brew
+      - espresso
+      - aeropress
+      - pour-over

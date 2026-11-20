@@ -1,0 +1,53 @@
+id: karma-kaapi
+name: Karma Kaapi
+country: IN
+city: Bengaluru
+website: https://karmakaapi.com
+has_cafes: true
+cafe_count_approx: 1
+verified: true
+sources:
+  - url: https://karmakaapi.com/pages/locations
+    retrieved: 2026-11-15
+    note: Flagship micro roastery and cafe in Jayanagar.
+  - url: https://karmakaapi.com/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: vienna-roast
+    name: Vienna Roast
+    forms: &a1
+      - whole_bean
+      - ground
+    roast_level: dark
+    flavor_notes:
+      - dark-chocolate
+      - smoky
+    roaster_notes: Dark chocolate, bittersweet undertones and a smoky finish. 100% Arabica.
+    url: https://karmakaapi.com/products/vienna-roast-dark-by-karma-kaapi
+    retrieved: 2026-11-15
+  - id: tropical-pineapple-fermented
+    name: Tropical - Pineapple Fermented Coffee
+    forms: *a1
+    roast_level: medium-light
+    process: experimental
+    origins:
+      - country: IN
+        region: Chikmagalur
+    varieties:
+      - sln-795
+    altitude_m:
+      min: 1372
+      max: 1372
+    flavor_notes:
+      - floral
+      - pineapple
+      - cocoa
+    roaster_notes: Floral aroma, dried pineapple, sharp acidity and cacao finish. Pulped coffee fermented with fresh pineapple.
+    url: https://karmakaapi.com/products/tropical-pineapple-fermented-coffee
+    retrieved: 2026-11-15
+cafes:
+  - id: jayanagar
+    name: Karma Kaapi Micro Roastery and Cafe
+    city: Bengaluru
+    country: IN
+    address: '#81, 36th Cross Rd, 5th Block, Jayanagar, Bengaluru 560041'

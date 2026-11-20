@@ -1,0 +1,113 @@
+id: 49th-parallel
+name: 49th Parallel Coffee Roasters
+country: CA
+website: https://49thcoffee.com
+has_cafes: true
+verified: true
+sources:
+  - url: https://49thcoffee.com
+    retrieved: 2026-11-15
+    note: Cafe list.
+  - url: https://49thcoffee.com/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: honduras-finca-liquidambar-filter
+    name: Honduras Finca Liquidámbar Filter Roast
+    forms:
+      - whole_bean
+    roast_level: medium-light
+    process: honey
+    origins:
+      - country: HN
+        region: Guascotoro, La Paz
+        producer: Finca Liquidámbar
+    varieties:
+      - bourbon
+      - catuai
+      - pacas
+    altitude_m:
+      min: 1510
+      max: 1510
+    flavor_notes:
+      - other-fruit
+      - brown-sugar
+      - coconut
+    roaster_notes: Apricot, brown sugar, toasted coconut. Yellow honey process.
+    url: https://49thcoffee.com/products/honduras-finca-liquidambar-filter-roast-coffee
+    retrieved: 2026-11-15
+  - id: winter-gold-sumatra-bener-meriah-espresso
+    name: Winter Gold - Sumatra Bener Meriah Espresso
+    forms:
+      - whole_bean
+    roast_level: medium
+    process: natural
+    origins:
+      - country: ID
+        region: Bener Meriah, Aceh, Sumatra
+    varieties:
+      - typica
+    flavor_notes:
+      - dark-chocolate
+      - other-fruit
+    roaster_notes: Dark chocolate, mango, plum. Slow-dried natural.
+    url: https://49thcoffee.com/products/winter-gold-sumatra-bener-meriah-espresso
+    availability: seasonal
+    retrieved: 2026-11-15
+  - id: sumatra-bener-meriah-jasmine-co-ferment
+    name: Sumatra Bener Meriah Jasmine Co-Ferment Filter Roast
+    forms:
+      - whole_bean
+    roast_level: light
+    process: experimental
+    origins:
+      - country: ID
+        region: Bener Meriah, Aceh, Sumatra
+    flavor_notes:
+      - floral
+      - jasmine
+      - lemon
+    roaster_notes: Green tea, jasmine, lemon. Wet-hulled, jasmine co-fermented and infused.
+    url: https://49thcoffee.com/products/sumatra-bener-meriah-jasmine-co-ferment-filter-roast
+    retrieved: 2026-11-15
+  - id: sumatra-bener-meriah-lychee-co-ferment
+    name: Sumatra Bener Meriah Lychee Co-Ferment Filter Roast
+    forms:
+      - whole_bean
+    roast_level: light
+    process: experimental
+    origins:
+      - country: ID
+        region: Bener Meriah, Aceh, Sumatra
+    flavor_notes:
+      - honey
+      - other-fruit
+      - rose
+    roaster_notes: Honey, lychee, rose. Wet-hulled, lychee co-fermented and infused.
+    url: https://49thcoffee.com/products/sumatra-bener-meriah-lychee-co-ferment-filter-roast-coffee
+    retrieved: 2026-11-15
+cafes:
+  - id: thurlow
+    name: Thurlow Cafe
+    city: Vancouver
+    country: CA
+    url: https://49thcoffee.com/pages/thurlow
+  - id: main-st
+    name: Main St Cafe
+    city: Vancouver
+    country: CA
+    url: https://49thcoffee.com/pages/main-st
+  - id: west-4th
+    name: West 4th Cafe
+    city: Vancouver
+    country: CA
+    url: https://49thcoffee.com/pages/west-4th
+  - id: lonsdale
+    name: Lonsdale Cafe
+    city: North Vancouver
+    country: CA
+    url: https://49thcoffee.com/pages/locations-north-vancouver
+  - id: mcgill
+    name: McGill Cafe
+    city: Montreal
+    country: CA
+    url: https://49thcoffee.com/pages/locations-montreal

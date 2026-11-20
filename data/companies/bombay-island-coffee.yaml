@@ -1,0 +1,101 @@
+id: bombay-island-coffee
+name: Bombay Island Coffee Company
+country: IN
+website: https://bombayisland.com
+verified: false
+sources:
+  - url: https://bombayisland.com
+    retrieved: 2026-11-19
+    note: Collected automatically from the shop's Shopify product feed; not yet checked by a person.
+beans:
+  - id: cul-s-ratnagiri-estate
+    name: CUL-S Ratnagiri Estate
+    forms:
+      - whole_bean
+      - ground
+    url: https://bombayisland.com/products/cul-s-ratnagiri-estate
+    retrieved: 2026-11-19
+    roast_level: medium
+    flavor_notes:
+      - anise
+      - overall-sweet
+      - spices
+    roaster_notes: fennel, bringing together fruity sweetness and subtle spice
+  - id: mysore-nuggets-extra-bold
+    name: Mysore Nuggets Extra Bold
+    forms:
+      - whole_bean
+      - ground
+    url: https://bombayisland.com/products/mysore-nuggets-extra-bold
+    retrieved: 2026-11-19
+    roast_level: dark
+    profile:
+      acidity: 1
+  - id: bynemara-estate
+    name: Bynemara Estate
+    forms:
+      - whole_bean
+      - ground
+    url: https://bombayisland.com/products/bynemara-estate
+    retrieved: 2026-11-19
+    roast_level: medium-dark
+    profile:
+      acidity: 1
+  - id: yb-04-ratnagiri-estate
+    name: YB-04 Ratnagiri Estate
+    forms:
+      - whole_bean
+      - ground
+    url: https://bombayisland.com/products/yb-04-ratnagiri-estate
+    retrieved: 2026-11-19
+    roast_level: medium
+  - id: yc-03-ratnagiri-estate
+    name: YC-03 Ratnagiri Estate
+    forms:
+      - whole_bean
+      - ground
+    url: https://bombayisland.com/products/yc-03-ratnagiri-estate
+    retrieved: 2026-11-19
+    roast_level: medium
+  - id: full-city-roast
+    name: Full City Roast
+    forms:
+      - whole_bean
+      - ground
+    url: https://bombayisland.com/products/full-city-roast
+    retrieved: 2026-11-19
+    roast_level: medium-dark
+  - id: breakfast-blend
+    name: Breakfast Blend
+    forms:
+      - whole_bean
+      - ground
+    url: https://bombayisland.com/products/breakfast-blend
+    retrieved: 2026-11-19
+    roast_level: medium
+    blend: true
+  - id: vienna-roast
+    name: Vienna Roast
+    forms:
+      - whole_bean
+      - ground
+    url: https://bombayisland.com/products/vienna-roast
+    retrieved: 2026-11-19
+    roast_level: dark
+  - id: thogarihunkal-estate
+    name: Thogarihunkal Estate
+    forms:
+      - whole_bean
+      - ground
+    url: https://bombayisland.com/products/thogarihunkal-estate
+    retrieved: 2026-11-19
+    roast_level: medium
+  - id: community-blend
+    name: Community Blend
+    forms:
+      - whole_bean
+      - ground
+    url: https://bombayisland.com/products/community-blend
+    retrieved: 2026-11-19
+    roast_level: dark
+    blend: true

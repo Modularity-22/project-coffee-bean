@@ -1,0 +1,157 @@
+id: curious-life-coffee
+name: Curious Life Coffee Roasters
+country: IN
+website: https://curiouslifecoffee.com
+verified: false
+sources:
+  - url: https://curiouslifecoffee.com
+    retrieved: 2026-11-19
+    note: Collected automatically from the shop's WooCommerce product feed; not yet checked by a person.
+beans:
+  - id: gundikhan-washed-lot-2-espresso
+    name: Gundikhan Washed - Bold
+    forms:
+      - whole_bean
+      - ground
+    url: https://curiouslifecoffee.com/product/gundikhan-washed-lot-2-espresso/
+    retrieved: 2026-11-19
+    process: washed
+    origins:
+      - country: IN
+        region: Gundikhan Estate, Baba Budangiri Hills, Karnataka
+        producer: Gundikhan Estate
+    varieties:
+      - chandragiri
+    altitude_m:
+      min: 1280
+      max: 1372
+    flavor_notes:
+      - other-fruit
+    roaster_notes: tropical spices
+    profile:
+      body: 2
+  - id: shyira-rwanda-vibrant
+    name: Shyira, RWANDA - vibrant (Whole Beans Only)
+    forms:
+      - whole_bean
+      - ground
+    url: https://curiouslifecoffee.com/product/shyira-rwanda-vibrant/
+    retrieved: 2026-11-19
+    process: washed
+    origins:
+      - country: RW
+        region: Nyabihu
+    varieties:
+      - bourbon
+      - red-bourbon
+    altitude_m:
+      min: 1585
+      max: 1737
+    flavor_notes:
+      - fruity
+      - brown-sugar
+      - burnt
+      - caramelized
+    roaster_notes: ripe fruit lead into a rich, rounded sweetness reminiscent of jaggery and lightly burnt caramel
+  - id: elk-hill-bold
+    name: ELK HILL - BOLD
+    forms:
+      - ground
+    url: https://curiouslifecoffee.com/product/elk-hill-bold/
+    retrieved: 2026-11-19
+    process: washed
+    origins:
+      - country: IN
+        region: Verdant Hills, Kodagu (Coorg)
+    varieties:
+      - sln-9
+      - chandragiri
+    altitude_m:
+      min: 914
+      max: 1067
+    roaster_notes: your favourite fruit
+    flavor_notes:
+      - fruity
+  - id: gundikhan-natural-vibrant
+    name: Gundikhan Natural - Vibrant
+    forms:
+      - whole_bean
+      - ground
+    url: https://curiouslifecoffee.com/product/gundikhan-natural-vibrant/
+    retrieved: 2026-11-19
+    process: natural
+    origins:
+      - country: IN
+        region: Gundikhan Estate, Baba Budangiri Hills, Karnataka
+        producer: Gundikhan Estate
+    varieties:
+      - chandragiri
+    altitude_m:
+      min: 1280
+      max: 1372
+  - id: gundikhan-washed-vibrant
+    name: Gundikhan Washed - Vibrant
+    forms:
+      - whole_bean
+      - ground
+    url: https://curiouslifecoffee.com/product/gundikhan-washed-vibrant/
+    retrieved: 2026-11-19
+    process: washed
+    origins:
+      - country: IN
+        region: Gundikhan Estate, Baba Budangiri Hills, Karnataka
+        producer: Gundikhan Estate
+    varieties:
+      - chandragiri
+    altitude_m:
+      min: 1280
+      max: 1372
+  - id: single-origin-kenya
+    name: Gachatha AA, KENYA - Vibrant (Whole Beans Only)
+    forms:
+      - whole_bean
+      - ground
+    url: https://curiouslifecoffee.com/product/single-origin-kenya/
+    retrieved: 2026-11-19
+    process: washed
+    origins:
+      - country: KE
+        region: Nyeri, Central Province
+    varieties:
+      - sl28
+      - batian
+    altitude_m:
+      min: 1798
+      max: 2073
+    roaster_notes: black currants, ripe fruits and cane juice
+    flavor_notes:
+      - berry
+      - fruity
+      - brown-sugar
+  - id: rwanda-shyira-bold-2
+    name: Shyira, RWANDA - bold (Whole Beans Only)
+    forms:
+      - whole_bean
+    url: https://curiouslifecoffee.com/product/rwanda-shyira-bold-2/
+    retrieved: 2026-11-19
+    process: washed
+    origins:
+      - country: RW
+        region: 'Nyabihu Washing Sation: Shyira'
+    varieties:
+      - bourbon
+      - red-bourbon
+    altitude_m:
+      min: 1585
+      max: 1737
+    serve: either
+  - id: bison-house-blend-2
+    name: BISON, House Blend - bold
+    forms:
+      - whole_bean
+      - ground
+    url: https://curiouslifecoffee.com/product/bison-house-blend-2/
+    retrieved: 2026-11-19
+    blend: true
+    profile:
+      body: 4

@@ -1,0 +1,79 @@
+id: coffee-supreme
+name: Coffee Supreme
+country: NZ
+website: https://coffeesupreme.com
+has_cafes: true
+verified: true
+sources:
+  - url: https://www.coffeesupreme.com/blogs/locations
+    retrieved: 2026-11-15
+    note: Nine company sites in New Zealand, Australia and Japan; the four described as cafes are listed below.
+  - url: https://coffeesupreme.com/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: holiday-filter-blend
+    name: Holiday Filter Blend
+    forms:
+      - whole_bean
+      - ground
+    blend: true
+    flavor_notes:
+      - cocoa
+      - other-fruit
+      - pear
+    roaster_notes: Cacao, nectarine and candied pear.
+    url: https://coffeesupreme.com/products/holiday-filter-blend
+    availability: seasonal
+    retrieved: 2026-11-15
+  - id: colombia-el-indio
+    name: Colombia El Indio
+    forms:
+      - whole_bean
+      - ground
+    process: natural
+    origins:
+      - country: CO
+        region: Tolima
+        producer: El Indio
+    flavor_notes:
+      - berry
+      - other-fruit
+    roaster_notes: Berry sorbet and sweet melon.
+    url: https://coffeesupreme.com/products/colombia-el-indio
+    retrieved: 2026-11-15
+  - id: brazil-serra-dos-ciganos
+    name: Brazil Serra Dos Ciganos
+    forms:
+      - whole_bean
+      - ground
+    origins:
+      - country: BR
+        region: Serra dos Ciganos
+    flavor_notes:
+      - berry
+      - caramelized
+      - chocolate
+    roaster_notes: Berry, caramel and white chocolate.
+    url: https://coffeesupreme.com/products/brazil-serra-dos-ciganos
+    retrieved: 2026-11-15
+cafes:
+  - id: melbourne
+    name: Coffee Supreme Melbourne
+    city: Melbourne
+    country: AU
+    address: 28-36 Grosvenor Street, Abbotsford
+  - id: supreme-supreme
+    name: Supreme Supreme
+    city: Christchurch
+    country: NZ
+    address: 10 Welles Street
+  - id: midland-park
+    name: Midland Park
+    city: Wellington
+    country: NZ
+    address: 31 Waring Taylor Street, Wellington CBD
+  - id: customs
+    name: Customs
+    city: Wellington
+    country: NZ
+    address: 39 Ghuznee St, Te Aro

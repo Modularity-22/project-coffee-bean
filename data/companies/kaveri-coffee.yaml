@@ -1,0 +1,160 @@
+id: kaveri-coffee
+name: Kaveri Coffee
+country: IN
+website: https://kavericoffee.com
+verified: false
+sources:
+  - url: https://kavericoffee.com
+    retrieved: 2026-11-19
+    note: "Collected automatically from the shop's Shopify product feed; not yet checked by a person. The site has a page that may list cafes: https://kavericoffee.com/pages/locations"
+beans:
+  - id: signature-bold
+    name: BOLD | Kondadkan | Medium-Dark Roast
+    forms:
+      - whole_bean
+      - ground
+    url: https://kavericoffee.com/products/signature-bold
+    retrieved: 2026-11-19
+    roast_level: medium-dark
+    process: washed
+    origins:
+      - country: IN
+        region: Bababudangiri hills, Chikmagalur, Karnataka
+        producer: Hamsini Appadurai
+    varieties:
+      - sln-795
+    altitude_m:
+      min: 1219
+      max: 1219
+    flavor_notes:
+      - citrus-fruit
+      - other-fruit
+      - grape
+      - caramelized
+      - brown-sugar
+      - dark-chocolate
+    roaster_notes: Complex layers of citrus, kiwi, and grape, balanced with caramel sweetness, unrefined brown sugar (jaggery), and rich dark chocolate
+    brew_methods:
+      - south-indian-filter
+      - cold-brew
+      - espresso
+      - moka-pot
+      - french-press
+      - aeropress
+      - pour-over
+  - id: india-peaberry
+    name: PEABERRY | Bettadakhan | Medium Roast
+    forms:
+      - whole_bean
+      - ground
+    url: https://kavericoffee.com/products/india-peaberry
+    retrieved: 2026-11-19
+    roast_level: medium
+    process: washed
+    origins:
+      - country: IN
+        region: Baba Budangiri Mountains, Chikmagalur, Karnataka
+        producer: Kerkeicoondah Single Estate
+    varieties:
+      - sln-795
+    altitude_m:
+      min: 1219
+      max: 1219
+    flavor_notes:
+      - cherry
+      - vanilla
+      - dark-chocolate
+    roaster_notes: This is a rich and complex coffee layered with flavor notes of cherry vanilla and baker's chocolate
+    brew_methods:
+      - espresso
+      - moka-pot
+      - aeropress
+      - pour-over
+  - id: dawn-blend
+    name: DAWN Anniversary Blend
+    forms:
+      - whole_bean
+    url: https://kavericoffee.com/products/dawn-blend
+    retrieved: 2026-11-19
+    roast_level: medium
+    blend: true
+    flavor_notes:
+      - other-fruit
+      - citrus-fruit
+      - cocoa
+      - floral
+      - musty-earthy
+    roaster_notes: Apricot jam, citrus, rich cacao, delicate florals, earthy sweetness
+    brew_methods:
+      - espresso
+      - pour-over
+  - id: blend-heritage
+    name: BLEND | Heritage | Medium Roast
+    forms:
+      - whole_bean
+      - ground
+    url: https://kavericoffee.com/products/blend-heritage
+    retrieved: 2026-11-19
+    roast_level: medium
+    blend: true
+    flavor_notes:
+      - cherry
+      - chocolate
+      - caramelized
+    roaster_notes: This is a rich and complex coffee layered with flavor notes of cherry, chocolate and caramel
+    profile:
+      acidity: 2
+    brew_methods:
+      - moka-pot
+      - french-press
+      - aeropress
+      - pour-over
+  - id: signature-bright
+    name: BRIGHT | Kerkeicoondah | Medium-Light Roast
+    forms:
+      - whole_bean
+      - ground
+    url: https://kavericoffee.com/products/signature-bright
+    retrieved: 2026-11-19
+    roast_level: medium-light
+    process: washed
+    origins:
+      - country: IN
+        region: Baba Budangiri Mountains, Chikmagalur, Karnataka
+        producer: Joseph Mammen
+    varieties:
+      - sln-795
+    altitude_m:
+      min: 1201
+      max: 1201
+    roaster_notes: This is a versatile coffee that tastes good at different roast levels
+    brew_methods:
+      - french-press
+      - aeropress
+      - pour-over
+  - id: blend-espresso
+    name: BLEND | Espresso | Medium-Dark Roast
+    forms:
+      - whole_bean
+      - ground
+    url: https://kavericoffee.com/products/blend-espresso
+    retrieved: 2026-11-19
+    roast_level: medium-dark
+    blend: true
+    roaster_notes: Rich and smooth with an amazing flavor arc
+    profile:
+      acidity: 1
+    brew_methods:
+      - espresso
+  - id: blend-chicory-coffee
+    name: BLEND | Chicory Coffee | Medium-Dark Roast
+    forms:
+      - ground
+    url: https://kavericoffee.com/products/blend-chicory-coffee
+    retrieved: 2026-11-19
+    roast_level: medium-dark
+    blend: true
+    flavor_notes:
+      - roasted
+    roaster_notes: When roasted chicory root is mixed with coffee it gives the resulting brew a complex depth of flavors, richer body, and creamier mouthfeel
+    serve: milk

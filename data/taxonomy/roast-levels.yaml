@@ -1,0 +1,6 @@
+- { id: light, name: Light, sort_order: 1 }
+- { id: medium-light, name: Medium-light, sort_order: 2 }
+- { id: medium, name: Medium, sort_order: 3 }
+- { id: medium-dark, name: Medium-dark, sort_order: 4 }
+- { id: dark, name: Dark, sort_order: 5 }
+- { id: omni, name: Omni (filter and espresso), sort_order: 6 }

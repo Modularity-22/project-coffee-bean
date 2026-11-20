@@ -1,0 +1,65 @@
+id: fraction9-coffee
+name: Fraction9 Coffee
+country: IN
+city: Chikmagalur
+website: https://fraction9coffee.com
+description: Estate-based roaster in Aldur, Chikmagalur, selling coffee direct from the farm.
+has_cafes: false
+verified: true
+sources:
+  - url: https://fraction9coffee.com
+    retrieved: 2026-11-15
+    note: Estate address. No cafes of its own are mentioned on the pages read.
+  - url: https://fraction9coffee.com/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: excelsabica
+    name: Excelsabica
+    forms: &a1
+      - whole_bean
+    roast_level: light
+    process: anaerobic-natural
+    blend: true
+    origins:
+      - country: IN
+        region: Aldur, Chikmagalur, Karnataka
+        producer: Kesvinahakloo Estate
+        percent: 60
+    varieties:
+      - excelsa
+    altitude_m:
+      min: 1200
+      max: 1200
+    roaster_notes: Blend with 60% Excelsa from Kesvinahakloo Estate. Dual anaerobic naturals.
+    url: https://fraction9coffee.com/products/excelsabica
+    retrieved: 2026-11-15
+  - id: udayagiri-fruit-theory-naturals
+    name: Udayagiri Fruit Theory - Naturals
+    forms: *a1
+    roast_level: light
+    process: anaerobic-natural
+    origins:
+      - country: IN
+        region: Hosapura Village, Chikmagalur
+        producer: Udayagiri Estate
+    altitude_m:
+      min: 1250
+      max: 1250
+    roaster_notes: 120-hour anaerobic natural. Altitude published as 4,100 feet.
+    url: https://fraction9coffee.com/products/udayagiri-fruit-theory-naturals
+    retrieved: 2026-11-15
+  - id: velvet-cask
+    name: Velvet Cask - Oak Barrel Aged
+    forms: *a1
+    process: experimental
+    origins:
+      - country: IN
+        region: Chikmagalur
+    varieties:
+      - chandragiri
+    altitude_m:
+      min: 1300
+      max: 1300
+    roaster_notes: Honey process coffee aged in an oak barrel.
+    url: https://fraction9coffee.com/products/velvet-cask-oak-barrel-aged
+    retrieved: 2026-11-15

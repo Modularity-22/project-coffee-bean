@@ -1,0 +1,52 @@
+id: kapi-kottai
+name: Kāpi Kottai
+country: IN
+city: Chennai
+website: https://kapikottai.coffee
+has_cafes: false
+verified: true
+sources:
+  - url: https://kapikottai.coffee/pages/our-roastery
+    retrieved: 2026-11-15
+    note: Roastery in Kilpauk, Chennai. The site lists cafe partners, not cafes of its own.
+  - url: https://kapikottai.coffee/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: kurinji
+    name: Kurinji
+    forms: &a1
+      - whole_bean
+      - ground
+    origins:
+      - country: IN
+        region: Pushpagiri Range, Coorg
+        producer: Sirangalli Community Project
+    url: https://kapikottai.coffee/products/kurinji
+    retrieved: 2026-11-15
+  - id: natakurinji
+    name: Nātakurinji
+    forms: *a1
+    origins:
+      - country: IN
+        region: Lower Kodaikanal hills
+        producer: Ammikulavi Estate
+    varieties:
+      - caturra
+      - sln-9
+      - sln-795
+    roaster_notes: Density-sorted ripe cherries fermented in barrels for 72 hours.
+    url: https://kapikottai.coffee/products/natakurinji
+    retrieved: 2026-11-15
+  - id: hamirkalyani
+    name: Hamīrkalyāni
+    forms: *a1
+    process: honey
+    origins:
+      - country: IN
+        region: Chikmagalur
+        producer: Krishnagiri Estate
+    varieties:
+      - sln-795
+    roaster_notes: Honey process, fermented in two stages for 96 hours.
+    url: https://kapikottai.coffee/products/hamirkalyani
+    retrieved: 2026-11-15

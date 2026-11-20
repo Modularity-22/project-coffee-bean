@@ -1,0 +1,149 @@
+id: the-caffeine-baar
+name: The Caffeine Baar
+country: IN
+website: https://thecaffeinebaar.com
+verified: false
+sources:
+  - url: https://thecaffeinebaar.com
+    retrieved: 2026-11-19
+    note: Collected automatically from the shop's Shopify product feed; not yet checked by a person.
+beans:
+  - id: whisky-barrel-aged
+    name: Whiskey Barrel Aged
+    forms:
+      - whole_bean
+      - ground
+    url: https://thecaffeinebaar.com/products/whisky-barrel-aged
+    retrieved: 2026-11-19
+    process: experimental
+    origins:
+      - country: IN
+        region: Baarbara, Chikmagalur, Karnataka
+    varieties:
+      - sln-795
+    altitude_m:
+      min: 1372
+      max: 1372
+    flavor_notes:
+      - cocoa
+      - woody
+      - nutty
+    roaster_notes: Cacao nibs, Oak & Pecan
+  - id: honey-sun-dried
+    name: Honey Sun Dried
+    forms:
+      - whole_bean
+      - ground
+    url: https://thecaffeinebaar.com/products/honey-sun-dried
+    retrieved: 2026-11-19
+    process: honey
+    origins:
+      - country: IN
+        region: Baarbara, Chikmagalur, Karnataka
+    varieties:
+      - sln-795
+    altitude_m:
+      min: 1372
+      max: 1372
+    flavor_notes:
+      - cherry
+      - orange
+    roaster_notes: Cherry, Orange Rind
+  - id: 72-hour-fermented-washed
+    name: 72 Hour Fermented Washed
+    forms:
+      - whole_bean
+      - ground
+    url: https://thecaffeinebaar.com/products/72-hour-fermented-washed
+    retrieved: 2026-11-19
+    process: washed
+    origins:
+      - country: IN
+        region: Baarbara, Chikmagalur, Karnataka
+    varieties:
+      - sln-795
+    altitude_m:
+      min: 1372
+      max: 1372
+    flavor_notes:
+      - almond
+      - cocoa
+    roaster_notes: Roasted Almonds, Cacao Nibs
+  - id: frozen-cherry
+    name: Frozen Cherry
+    forms:
+      - whole_bean
+      - ground
+    url: https://thecaffeinebaar.com/products/frozen-cherry
+    retrieved: 2026-11-19
+    origins:
+      - country: IN
+        region: Baarbara, Chikmagalur, Karnataka
+    varieties:
+      - sln-795
+    altitude_m:
+      min: 1372
+      max: 1372
+    flavor_notes:
+      - other-fruit
+      - berry
+    roaster_notes: Juicy Mango, Mixed berries
+  - id: pineapple-fermentation-coffee
+    name: Pineapple Fermentation
+    forms:
+      - whole_bean
+      - ground
+    url: https://thecaffeinebaar.com/products/pineapple-fermentation-coffee
+    retrieved: 2026-11-19
+    origins:
+      - country: IN
+        region: Baarbara, Chikmagalur, Karnataka
+    varieties:
+      - sln-795
+    altitude_m:
+      min: 1372
+      max: 1372
+    flavor_notes:
+      - caramelized
+      - nutty
+    roaster_notes: Caramel, Toasted Nuts
+  - id: natural
+    name: Naturals
+    forms:
+      - whole_bean
+      - ground
+    url: https://thecaffeinebaar.com/products/natural
+    retrieved: 2026-11-19
+    process: natural
+    origins:
+      - country: IN
+        region: Baarbara, Chikmagalur, Karnataka
+    varieties:
+      - sln-795
+    altitude_m:
+      min: 1372
+      max: 1372
+    flavor_notes:
+      - coconut
+      - other-fruit
+    roaster_notes: Coconut Chips, Mango
+  - id: intenso-fermentation
+    name: Intenso Fermentation
+    forms:
+      - whole_bean
+      - ground
+    url: https://thecaffeinebaar.com/products/intenso-fermentation
+    retrieved: 2026-11-19
+    varieties:
+      - sln-795
+    altitude_m:
+      min: 1372
+      max: 1372
+    flavor_notes:
+      - pomegranate
+      - cherry
+      - fruity
+      - prune
+    roaster_notes: Pomegranate, Cherry, Candied Fruit & Prunes
+    brew_methods:
+      - pour-over

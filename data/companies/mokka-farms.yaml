@@ -1,0 +1,25 @@
+id: mokka-farms
+name: MokkaFarms
+country: IN
+website: https://mokkafarms.com
+description: Farm-to-cup coffee from plantations in Coorg and Chikmagalur.
+has_cafes: false
+verified: true
+sources:
+  - url: https://mokkafarms.com/pages/about-us
+    retrieved: 2026-11-15
+    note: Neither a city nor cafes are stated.
+  - url: https://mokkafarms.com/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: electric-drip-80-20
+    name: Electric Drip - 80% Arabica-20% Robusta | A/AA Grade | Premium Ground Coffee
+    forms:
+      - ground
+    blend: true
+    origins:
+      - country: IN
+        region: Coorg and Chikmagalur, Karnataka
+    roaster_notes: 80% Arabica and 20% Robusta.
+    url: https://mokkafarms.com/products/electric-drip-80-arabica-20-robusta-a-aa-grade-premium-ground-coffee
+    retrieved: 2026-11-15

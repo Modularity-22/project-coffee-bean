@@ -1,0 +1,73 @@
+id: caarabi-coffee
+name: Caarabi Coffee Roasters
+country: IN
+website: https://caarabicoffee.com
+has_cafes: false
+verified: true
+sources:
+  - url: https://caarabicoffee.com/pages/aboutus
+    retrieved: 2026-11-15
+    note: Neither a city nor cafes are stated.
+  - url: https://caarabicoffee.com/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: juicy-gossip
+    name: Juicy Gossip | Speciality Blend | Medium Light Roast
+    forms:
+      - whole_bean
+      - ground
+    roast_level: medium-light
+    process: mixed
+    blend: true
+    flavor_notes:
+      - cocoa
+      - other-fruit
+      - grape
+      - berry
+    roaster_notes: Raw Cacao. Plum. Green Grape. Wild Berry.
+    url: https://caarabicoffee.com/products/juicy-gossip-speciality-blend-medium-light-roast
+    retrieved: 2026-11-15
+  - id: baarbara-naturals
+    name: Baarbara Naturals | Natural | Medium Light Roast
+    forms:
+      - whole_bean
+      - ground
+    roast_level: medium-light
+    process: natural
+    origins:
+      - country: IN
+        region: Chikmagalur, Karnataka
+        producer: Baarbara Estate
+    altitude_m:
+      min: 1372
+      max: 1524
+    flavor_notes:
+      - grape
+      - sweet-aromatics
+      - brown-sugar
+    roaster_notes: Green Grape. Nougat. Brown Sugar. Altitude published as 4,500 to 5,000 feet.
+    url: https://caarabicoffee.com/products/baarbara-naturals-natural-medium-light-roast
+    retrieved: 2026-11-15
+  - id: kumergode-fruit-ferment
+    name: Kumergode Fruit Ferment | Fruit Fermented Naturals | Medium Light Roast
+    forms:
+      - whole_bean
+      - ground
+    roast_level: medium-light
+    process: experimental
+    origins:
+      - country: IN
+        region: Chikmagalur
+        producer: Kumergode Estate
+    varieties:
+      - chandragiri
+    altitude_m:
+      min: 1128
+      max: 1128
+    flavor_notes:
+      - cherry
+      - grape
+      - caramelized
+    roaster_notes: Red Cherry. Black Grape. Caramel. Altitude published as 3,700 feet.
+    url: https://caarabicoffee.com/products/kumergode-fruit-ferment-fruit-fermented-naturals-medium-light-roast
+    retrieved: 2026-11-15

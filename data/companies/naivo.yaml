@@ -1,0 +1,81 @@
+id: naivo
+name: Naivo Cafe
+country: IN
+website: https://naivo.in
+verified: false
+sources:
+  - url: https://naivo.in
+    retrieved: 2026-11-19
+    note: Collected automatically from the shop's WooCommerce product feed; not yet checked by a person.
+beans:
+  - id: sandalwood-estate-washed
+    name: Sandalwood Estate Washed
+    forms:
+      - whole_bean
+      - ground
+    url: https://naivo.in/product/sandalwood-estate-washed/
+    retrieved: 2026-11-19
+    roast_level: omni
+    process: washed
+    brew_methods:
+      - south-indian-filter
+      - espresso
+      - moka-pot
+      - turkish
+  - id: ratnagiri-estate-robusta-mosto-naturals
+    name: Ratnagiri Estate - Robusta Mosto Naturals
+    forms:
+      - whole_bean
+      - ground
+    url: https://naivo.in/product/ratnagiri-estate-robusta-mosto-naturals/
+    retrieved: 2026-11-19
+    roast_level: omni
+    process: natural
+    varieties:
+      - robusta
+    brew_methods:
+      - south-indian-filter
+      - espresso
+      - moka-pot
+      - turkish
+  - id: ratnagiri-estate-robusta-thermal-shock-27-8
+    name: Ratnagiri Estate - Robusta Thermal Shock 27.8
+    forms:
+      - whole_bean
+      - ground
+    url: https://naivo.in/product/ratnagiri-estate-robusta-thermal-shock-27-8/
+    retrieved: 2026-11-19
+    process: experimental
+    varieties:
+      - robusta
+    brew_methods:
+      - south-indian-filter
+      - espresso
+      - moka-pot
+      - turkish
+  - id: elkhill-estates-anaerobic-washed
+    name: Elkhill Estates Anaerobic Washed
+    forms:
+      - whole_bean
+      - ground
+    url: https://naivo.in/product/elkhill-estates-anaerobic-washed/
+    retrieved: 2026-11-19
+    process: anaerobic-washed
+    brew_methods:
+      - south-indian-filter
+      - espresso
+      - moka-pot
+  - id: balanoor-chandragiri-washed
+    name: Balanoor Chandragiri Washed
+    forms:
+      - whole_bean
+      - ground
+    url: https://naivo.in/product/balanoor-chandragiri-washed/
+    retrieved: 2026-11-19
+    process: washed
+    varieties:
+      - chandragiri
+    brew_methods:
+      - south-indian-filter
+      - pour-over
+      - batch-brew

@@ -1,0 +1,109 @@
+id: subko
+name: Subko Specialty Coffee Roasters
+country: IN
+website: https://www.subko.coffee
+description: Roaster, bakehouse and cacao maker sourcing coffee from Indian regions as well as Nepal and Sri Lanka.
+has_cafes: true
+cafe_count_approx: 16
+verified: true
+sources:
+  - url: https://www.subko.coffee/pages/locations
+    retrieved: 2026-11-15
+    note: Lists 16 locations. Several sit inside other venues, and the page does not say whether all are company-operated.
+  - url: https://www.subko.coffee/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: salawara-lot-556-carbonic-maceration
+    name: 'Project Salawara Bros.: Lot 556, Salawara Estate, Karnataka: Carbonic Maceration HSD, Omniroast (Medium)'
+    forms:
+      - whole_bean
+      - ground
+    roast_level: medium
+    process: carbonic-maceration
+    origins:
+      - country: IN
+        region: Karnataka
+        producer: Salawara Estate
+    varieties:
+      - sln-795
+    flavor_notes:
+      - lime
+      - pomegranate
+      - raisin
+    roaster_notes: Sweet Lime, Pomegranate, Raisins.
+    url: https://www.subko.coffee/products/project-salawara-bros-556-salawara-carbonic-maceration-hsd-omniroast-medium
+    retrieved: 2026-11-15
+  - id: kerehaklu-cw3-aerobic-washed
+    name: 'Project Yung Gun: Kerehaklu Estate, Karnataka: Lot CW3 - Aerobic Washed (Light Filter Roast)'
+    forms:
+      - whole_bean
+      - ground
+    roast_level: light
+    process: washed
+    origins:
+      - country: IN
+        region: Karnataka
+        producer: Kerehaklu Estate
+    varieties:
+      - sln-9
+    flavor_notes:
+      - orange
+      - grape
+      - caramelized
+    roaster_notes: Orange Creamsicle, Green Grape, Caramel.
+    url: https://www.subko.coffee/products/project-yung-gun-kerehaklu-cw3-aerobic-washed-light
+    retrieved: 2026-11-15
+  - id: project-pearl-ratnagiri-omni
+    name: 'Project Pearl, Ratnagiri Estate, Karnataka (SCA 85+): Naturals + Anaerobic Honey: Omni Roast (Medium)'
+    forms:
+      - whole_bean
+      - ground
+    roast_level: medium
+    process: mixed
+    origins:
+      - country: IN
+        region: Karnataka
+        producer: Ratnagiri Estate
+    varieties:
+      - catuai
+    altitude_m:
+      min: 1540
+      max: 1540
+    flavor_notes:
+      - other-fruit
+      - honey
+      - hazelnut
+    roaster_notes: Raw Mango, Blossom Honey, Hazelnut Tart.
+    url: https://www.subko.coffee/products/project-pearl-ratnagiri-estate-karnataka-naturals-anaerobic-honey-omni-roast
+    retrieved: 2026-11-15
+cafes:
+  - id: mary-lodge
+    name: Mary Lodge, Bandra (W)
+    city: Mumbai
+    country: IN
+    address: 21A, Chapel Road, Bandra (W)
+  - id: the-cacao-mill
+    name: The Cacao Mill, Colaba
+    city: Mumbai
+    country: IN
+    address: 2nd Pasta Lane, Colaba
+  - id: the-craftery
+    name: The Craftery, Byculla (E)
+    city: Mumbai
+    country: IN
+    address: Unit 2 JAK Compound, Byculla (E)
+  - id: the-craftery-blr
+    name: The Craftery BLR by Subko, Koramangala
+    city: Bengaluru
+    country: IN
+    address: No. 68, 3rd Block, Koramangala
+  - id: lodhi-colony
+    name: Subko Lodhi Colony
+    city: New Delhi
+    country: IN
+    address: F/6, New Khanna Market, Lodhi Colony, Block D
+  - id: alserkal-avenue
+    name: Subko Specialty Coffee Roasters and Bakehouse
+    city: Dubai
+    country: AE
+    address: Alserkal Avenue, Warehouse 15, Al Quoz

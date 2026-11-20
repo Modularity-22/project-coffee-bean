@@ -1,0 +1,60 @@
+id: home-blend-coffee-roasters
+name: Home Blend Coffee Roasters
+country: IN
+website: https://homeblendcoffee.com
+has_cafes: false
+verified: true
+sources:
+  - url: https://homeblendcoffee.com/pages/about
+    retrieved: 2026-11-15
+    note: Neither a city nor cafes are stated.
+  - url: https://homeblendcoffee.com/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: yellow-honey
+    name: Yellow Honey - Light to Medium Roast
+    forms: &a1
+      - whole_bean
+      - ground
+    roast_level: medium-light
+    process: honey
+    altitude_m:
+      min: 1200
+      max: 1300
+    flavor_notes:
+      - peach
+      - orange
+      - honey
+    roaster_notes: Peach, orange and honey.
+    url: https://homeblendcoffee.com/products/yellow-honey
+    retrieved: 2026-11-15
+  - id: wild-ferment
+    name: Wild Ferment - Light to Medium Roast
+    forms: *a1
+    roast_level: medium-light
+    process: experimental
+    altitude_m:
+      min: 1200
+      max: 1300
+    flavor_notes:
+      - pineapple
+      - strawberry
+      - peach
+    roaster_notes: Pineapple, strawberry and peach. Yeast fermentation.
+    url: https://homeblendcoffee.com/products/wild-ferment
+    retrieved: 2026-11-15
+  - id: dark-honey
+    name: Dark Honey - Light to Medium Roast
+    forms: *a1
+    roast_level: medium-light
+    process: honey
+    altitude_m:
+      min: 1200
+      max: 1300
+    flavor_notes:
+      - cherry
+      - peach
+      - honey
+    roaster_notes: Red cherry, peach and honey. Black honey process.
+    url: https://homeblendcoffee.com/products/darkhoney
+    retrieved: 2026-11-15

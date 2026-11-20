@@ -1,0 +1,59 @@
+id: friedhats
+name: Friedhats
+country: NL
+website: https://www.friedhats.com
+has_cafes: true
+cafe_count_approx: 1
+verified: true
+sources:
+  - url: https://www.friedhats.com
+    retrieved: 2026-11-15
+    note: Cafe listing.
+  - url: https://www.friedhats.com/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: panama-finca-la-alqueria-pacamara-natural
+    name: Panama Finca La Alqueria Pacamara Natural
+    forms:
+      - whole_bean
+    roast_level: omni
+    process: natural
+    origins:
+      - country: PA
+        producer: Finca La Alqueria
+    varieties:
+      - pacamara
+    url: https://www.friedhats.com/products/panama-finca-la-alqueria-pacamara-omni
+    retrieved: 2026-11-15
+  - id: kenya-rungeto-kiangoi-056
+    name: "Kenya Rung'eto Kiangoi #056"
+    forms:
+      - whole_bean
+    process: washed
+    origins:
+      - country: KE
+        producer: Rung'eto Kiangoi
+    url: https://www.friedhats.com/products/kenya-rungeto-kiangoi-056
+    retrieved: 2026-11-15
+  - id: ethiopia-negele-gorbitu-anaerobic
+    name: Ethiopia Negele Gorbitu Anaerobic Omni
+    forms:
+      - whole_bean
+    roast_level: omni
+    process: experimental
+    origins:
+      - country: ET
+        producer: Negele Gorbitu
+    roaster_notes: Complexity, long sweetness and some delightful funk. Anaerobic process.
+    url: https://www.friedhats.com/products/ethiopia-negele-gorbitu-anaerobic-omni-2
+    retrieved: 2026-11-15
+    flavor_notes:
+      - overall-sweet
+      - fermented
+cafes:
+  - id: fuku
+    name: Friedhats Fuku Cafe
+    city: Amsterdam
+    country: NL
+    address: Bos en Lommerweg 136, 1055 ED
+    url: https://www.friedhats.com/fuku

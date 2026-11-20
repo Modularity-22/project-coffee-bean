@@ -1,0 +1,71 @@
+id: dope-coffee
+name: Dope Coffee Roasters
+country: IN
+website: https://dopecoffee.in
+has_cafes: false
+verified: true
+sources:
+  - url: https://dopecoffee.in
+    retrieved: 2026-11-15
+    note: No cafes of its own are mentioned on the pages read; the city is not stated.
+  - url: https://dopecoffee.in/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: kalledevarapura-estate
+    name: Kalledevarapura Estate
+    forms:
+      - whole_bean
+      - ground
+    roast_level: medium-light
+    origins:
+      - country: IN
+        producer: Kalledevarapura Estate
+    altitude_m:
+      min: 1372
+      max: 1372
+    roaster_notes: 100% Arabica with a smooth, natural sweetness. Altitude published as 4,500 feet.
+    url: https://dopecoffee.in/products/kalledevarapura-estate
+    retrieved: 2026-11-15
+    flavor_notes:
+      - overall-sweet
+  - id: nilgiri
+    name: Nilgiri
+    forms:
+      - whole_bean
+      - ground
+    roast_level: medium
+    origins:
+      - country: IN
+        region: Nilgiris, Tamil Nadu
+    roaster_notes: 100% Arabica, grown alongside sugarcane, orange and eucalyptus.
+    url: https://dopecoffee.in/products/nilgiri-estate
+    retrieved: 2026-11-15
+  - id: roaring-robusta
+    name: Roaring Robusta
+    forms:
+      - whole_bean
+      - ground
+    roast_level: dark
+    varieties:
+      - robusta
+    flavor_notes:
+      - dark-chocolate
+      - woody
+      - nutty
+    roaster_notes: Rich dark chocolate, a dash of oak and a nutty surprise. 100% Robusta.
+    url: https://dopecoffee.in/products/roaring-robusta
+    retrieved: 2026-11-15
+  - id: buzz-blend
+    name: Buzz Blend
+    forms:
+      - whole_bean
+      - ground
+    roast_level: dark
+    blend: true
+    flavor_notes:
+      - chocolate
+      - molasses
+      - nutty
+    roaster_notes: Chocolate, Molasses, Toasted Nuts. Arabica and Robusta.
+    url: https://dopecoffee.in/products/buzz-blend
+    retrieved: 2026-11-15

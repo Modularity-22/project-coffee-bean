@@ -1,0 +1,63 @@
+id: tulum-coffee
+name: Tulum Coffee
+country: IN
+city: Mumbai
+website: https://tulum.coffee
+description: Specialises in coffees sourced from Indian farms.
+has_cafes: false
+verified: true
+sources:
+  - url: https://tulum.coffee
+    retrieved: 2026-11-15
+    note: Address. No cafes of its own are mentioned on the pages read.
+  - url: https://tulum.coffee/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: lumen-blend
+    name: The Lumen Blend - Light Roast
+    forms:
+      - whole_bean
+      - ground
+    roast_level: medium-light
+    blend: true
+    origins:
+      - country: IN
+    flavor_notes:
+      - fruity
+      - orange
+      - berry
+    roaster_notes: Lively and fruity with notes of orange and berries.
+    url: https://tulum.coffee/products/lumen
+    retrieved: 2026-11-15
+  - id: saigon-blend
+    name: The Saigon Blend
+    forms:
+      - whole_bean
+      - ground
+    roast_level: dark
+    blend: true
+    origins:
+      - country: IN
+    flavor_notes:
+      - nutty
+      - cocoa
+    roaster_notes: Toasted nuts and cacao.
+    url: https://tulum.coffee/products/the-saigon-blend-specialty-blend
+    retrieved: 2026-11-15
+  - id: swell-blend
+    name: The Swell Blend
+    forms:
+      - whole_bean
+      - ground
+    roast_level: medium
+    blend: true
+    origins:
+      - country: IN
+        region: Chikmagalur
+    flavor_notes:
+      - chocolate
+      - nutty
+      - fruity
+    roaster_notes: Chocolatey and nutty with hints of fruit.
+    url: https://tulum.coffee/products/the-swell-blend-specialty-blend
+    retrieved: 2026-11-15

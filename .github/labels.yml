@@ -1,0 +1,12 @@
+# Labels used by the issue templates. Create them once the repository is on GitHub, e.g.
+#   gh label create data --color 6F4E37 --description "Dataset changes"
+- { name: data, color: 6F4E37, description: Dataset changes }
+- { name: new-company, color: C8875A, description: Request to add a roaster }
+- { name: correction, color: D93F0B, description: Existing data is wrong or out of date }
+- { name: bug, color: B60205, description: Something does not work }
+- { name: enhancement, color: 0E8A16, description: New feature or improvement }
+- { name: app, color: 1D76DB, description: Mobile app }
+- { name: tools, color: 5319E7, description: Build and validation tools }
+- { name: schema, color: FBCA04, description: Relational schema, taxonomy or ontology }
+- { name: good first issue, color: 7057FF, description: Good for newcomers }
+- { name: help wanted, color: 008672, description: Extra attention is needed }

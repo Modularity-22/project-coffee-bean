@@ -1,0 +1,90 @@
+id: panduranga-coffee
+name: Panduranga Coffee
+country: IN
+website: https://pandurangacoffee.com
+verified: false
+sources:
+  - url: https://pandurangacoffee.com
+    retrieved: 2026-11-19
+    note: Collected automatically from the shop's Shopify product feed; not yet checked by a person.
+beans:
+  - id: made-in-chikmagalur
+    name: Made In Chikmagalur (80% Premium Coffee + 20% Chicory)
+    forms:
+      - whole_bean
+    url: https://pandurangacoffee.com/products/made-in-chikmagalur
+    retrieved: 2026-11-19
+    origins:
+      - country: IN
+    flavor_notes:
+      - fruity
+      - caramelized
+      - chocolate
+    roaster_notes: fruity flavour with a scintillating aroma, a secret old blend with balanced caramel, chocolaty, fruity and butter notes in a cup
+    brew_methods:
+      - south-indian-filter
+      - moka-pot
+      - french-press
+  - id: once-upon-a-farm-mylemoney-coffee
+    name: ONCE Upon a FARM Mylemoney Single Origin Coffee
+    forms:
+      - whole_bean
+      - ground
+    url: https://pandurangacoffee.com/products/once-upon-a-farm-mylemoney-coffee
+    retrieved: 2026-11-19
+    origins:
+      - country: IN
+        region: MYLEMONEY, CHIKMAGALUR
+    altitude_m:
+      min: 1220
+      max: 1220
+    flavor_notes:
+      - nutty
+      - cinnamon
+    roaster_notes: Toasted Nuts, Cinnamon (Expect a bright cup with fair and delicate mouthfeel, along with hints of toasted nuts & cinnamon.) contains 100% co
+  - id: honey-sun-dried-coffee
+    name: HONEY SUN DRIED COFFEE
+    forms:
+      - whole_bean
+      - ground
+    url: https://pandurangacoffee.com/products/honey-sun-dried-coffee
+    retrieved: 2026-11-19
+    process: honey
+    flavor_notes:
+      - honey
+    roaster_notes: a touch of honey, making it one of our finest roasts
+  - id: whiskey-barrel-aged-coffee
+    name: NEW LAUNCH - WHISKEY BARREL AGED COFFEE
+    forms:
+      - whole_bean
+      - ground
+    url: https://pandurangacoffee.com/products/whiskey-barrel-aged-coffee
+    retrieved: 2026-11-19
+    process: experimental
+    flavor_notes:
+      - whiskey
+    roaster_notes: whiskey and coffee
+  - id: rum-barrel-aged-coffee-for-black-coffee
+    name: NEW LAUNCH RUM BARREL AGED COFFEE (FOR BLACK COFFEE)
+    forms:
+      - whole_bean
+      - ground
+    url: https://pandurangacoffee.com/products/rum-barrel-aged-coffee-for-black-coffee
+    retrieved: 2026-11-19
+    process: experimental
+  - id: wine-barrel-coffee-for-black-coffee
+    name: NEW LAUNCH WINE BARREL COFFEE ( FOR BLACK COFFEE)
+    forms:
+      - whole_bean
+      - ground
+    url: https://pandurangacoffee.com/products/wine-barrel-coffee-for-black-coffee
+    retrieved: 2026-11-19
+    process: experimental
+  - id: italian-espress-roast
+    name: Italian Espresso DARK ROAST Pure Coffee
+    forms:
+      - whole_bean
+      - ground
+    url: https://pandurangacoffee.com/products/italian-espress-roast
+    retrieved: 2026-11-19
+    roast_level: dark

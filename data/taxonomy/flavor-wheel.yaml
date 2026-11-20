@@ -1,0 +1,180 @@
+# The only flavour terms allowed in `flavor_notes`, for beans and for drinks.
+#
+# Structure and terms follow the Coffee Taster's Flavor Wheel (Specialty Coffee
+# Association and World Coffee Research, 2016), as published in:
+#   Spencer M., Sage E., Velez M., Guinard J.-X. (2016). "Using Single Free
+#   Sorting and Multivariate Exploratory Methods to Design a New Coffee Taster's
+#   Flavor Wheel." Journal of Food Science 81(12): S2997–S3005, Table 4.
+# The wheel's artwork is not reproduced here. See docs/flavour-vocabulary.md.
+#
+# Three tiers: category > group > descriptor. A note may use any tier: when you
+# cannot place a taste exactly, use the broader term ("berry" rather than
+# guessing "raspberry"). Where the wheel repeats a name one level down (Floral >
+# Floral, Green/vegetative > Green/vegetative) the repeated level is folded into
+# its parent. Ids are permanent.
+#
+# Words roasters use that are not on the wheel (jaggery, mango, cardamom...) are
+# mapped in flavor-aliases.yaml. Never add a term to this file to fit one coffee.
+
+- id: floral
+  name: Floral
+  children:
+    - { id: black-tea, name: Black tea }
+    - { id: chamomile, name: Chamomile }
+    - { id: rose, name: Rose }
+    - { id: jasmine, name: Jasmine }
+
+- id: fruity
+  name: Fruity
+  children:
+    - id: berry
+      name: Berry
+      children:
+        - { id: blackberry, name: Blackberry }
+        - { id: raspberry, name: Raspberry }
+        - { id: blueberry, name: Blueberry }
+        - { id: strawberry, name: Strawberry }
+    - id: dried-fruit
+      name: Dried fruit
+      children:
+        - { id: raisin, name: Raisin }
+        - { id: prune, name: Prune }
+    - id: other-fruit
+      name: Other fruit
+      children:
+        - { id: coconut, name: Coconut }
+        - { id: cherry, name: Cherry }
+        - { id: pomegranate, name: Pomegranate }
+        - { id: pineapple, name: Pineapple }
+        - { id: grape, name: Grape }
+        - { id: apple, name: Apple }
+        - { id: peach, name: Peach }
+        - { id: pear, name: Pear }
+    - id: citrus-fruit
+      name: Citrus fruit
+      children:
+        - { id: grapefruit, name: Grapefruit }
+        - { id: orange, name: Orange }
+        - { id: lemon, name: Lemon }
+        - { id: lime, name: Lime }
+
+- id: sour-fermented
+  name: Sour / fermented
+  children:
+    - id: sour
+      name: Sour
+      children:
+        - { id: sour-aromatics, name: Sour aromatics }
+        - { id: acetic-acid, name: Acetic acid }
+        - { id: butyric-acid, name: Butyric acid }
+        - { id: isovaleric-acid, name: Isovaleric acid }
+        - { id: citric-acid, name: Citric acid }
+        - { id: malic-acid, name: Malic acid }
+    - id: alcohol-fermented
+      name: Alcohol / fermented
+      children:
+        - { id: winey, name: Winey }
+        - { id: whiskey, name: Whiskey }
+        - { id: fermented, name: Fermented }
+        - { id: overripe, name: Overripe }
+
+- id: green-vegetative
+  name: Green / vegetative
+  children:
+    - { id: olive-oil, name: Olive oil }
+    - { id: raw, name: Raw }
+    - { id: under-ripe, name: Under-ripe }
+    - { id: peapod, name: Peapod }
+    - { id: fresh, name: Fresh }
+    - { id: dark-green, name: Dark green }
+    - { id: vegetative, name: Vegetative }
+    - { id: hay-like, name: Hay-like }
+    - { id: herb-like, name: Herb-like }
+    - { id: beany, name: Beany }
+
+- id: other
+  name: Other
+  children:
+    - id: papery-musty
+      name: Papery / musty
+      children:
+        - { id: stale, name: Stale }
+        - { id: cardboard, name: Cardboard }
+        - { id: papery, name: Papery }
+        - { id: woody, name: Woody }
+        - { id: moldy-damp, name: Moldy / damp }
+        - { id: musty-dusty, name: Musty / dusty }
+        - { id: musty-earthy, name: Musty / earthy }
+        - { id: animalic, name: Animalic }
+        - { id: meaty-brothy, name: Meaty / brothy }
+        - { id: phenolic, name: Phenolic }
+    - id: chemical
+      name: Chemical
+      children:
+        - { id: bitter, name: Bitter }
+        - { id: salty, name: Salty }
+        - { id: medicinal, name: Medicinal }
+        - { id: petroleum, name: Petroleum }
+        - { id: skunky, name: Skunky }
+        - { id: rubber, name: Rubber }
+
+- id: roasted
+  name: Roasted
+  children:
+    - { id: pipe-tobacco, name: Pipe tobacco }
+    - { id: tobacco, name: Tobacco }
+    - id: burnt
+      name: Burnt
+      children:
+        - { id: acrid, name: Acrid }
+        - { id: ashy, name: Ashy }
+        - { id: smoky, name: Smoky }
+        - { id: brown-roast, name: 'Brown, roast' }
+    - id: cereal
+      name: Cereal
+      children:
+        - { id: grain, name: Grain }
+        - { id: malt, name: Malt }
+
+- id: spices
+  name: Spices
+  children:
+    - { id: pungent, name: Pungent }
+    - { id: pepper, name: Pepper }
+    - id: brown-spice
+      name: Brown spice
+      children:
+        - { id: anise, name: Anise }
+        - { id: nutmeg, name: Nutmeg }
+        - { id: cinnamon, name: Cinnamon }
+        - { id: clove, name: Clove }
+
+- id: nutty-cocoa
+  name: Nutty / cocoa
+  children:
+    - id: nutty
+      name: Nutty
+      children:
+        - { id: peanuts, name: Peanuts }
+        - { id: hazelnut, name: Hazelnut }
+        - { id: almond, name: Almond }
+    - id: cocoa
+      name: Cocoa
+      children:
+        - { id: chocolate, name: Chocolate }
+        - { id: dark-chocolate, name: Dark chocolate }
+
+- id: sweet
+  name: Sweet
+  children:
+    - id: brown-sugar
+      name: Brown sugar
+      children:
+        - { id: molasses, name: Molasses }
+        - { id: maple-syrup, name: Maple syrup }
+        - { id: caramelized, name: Caramelized }
+        - { id: honey, name: Honey }
+    - { id: vanilla, name: Vanilla }
+    - { id: vanillin, name: Vanillin }
+    - { id: overall-sweet, name: Overall sweet }
+    - { id: sweet-aromatics, name: Sweet aromatics }

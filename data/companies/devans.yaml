@@ -1,0 +1,44 @@
+id: devans
+name: Devan's South Indian Coffee & Tea
+country: IN
+city: New Delhi
+founded: 1962
+website: https://devans.in
+description: Family-run roaster in Lodhi Colony, roasting since 1962; describes itself as the first roaster in North India.
+has_cafes: true
+verified: true
+sources:
+  - url: https://devans.in
+    retrieved: 2026-11-15
+    note: Founding year, address, and a "Visit Our Cafe" link. Cafe details were not read.
+  - url: https://devans.in/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: ethiopian-djimmah
+    name: Ethiopian Djimmah Jasmine Coffee
+    forms:
+      - whole_bean
+      - ground
+    origins:
+      - country: ET
+        region: Illubabor and Kaffa
+    altitude_m:
+      min: 1341
+      max: 1829
+    flavor_notes:
+      - fruity
+      - cocoa
+    roaster_notes: Good body and pleasant aroma with notes of fruit and cocoa. Altitude published as 4,400 to 6,000 feet.
+    url: https://devans.in/products/euthopian
+    retrieved: 2026-11-15
+  - id: premium-blend
+    name: Devans Premium Blend
+    forms:
+      - whole_bean
+      - ground
+    blend: true
+    origins:
+      - country: IN
+    roaster_notes: Arabica and Robusta blend with a dash of acidity.
+    url: https://devans.in/products/devans-premium-blend-coffee
+    retrieved: 2026-11-15

@@ -1,0 +1,87 @@
+id: ona-coffee
+name: ONA Coffee
+country: AU
+city: Canberra
+founded: 2008
+website: https://onacoffee.com.au
+description: Canberra roaster founded by World Barista Champion Saša Šestić.
+has_cafes: true
+verified: true
+sources:
+  - url: https://onacoffee.com.au
+    retrieved: 2026-11-15
+    note: Founding year, roastery city.
+  - url: https://onacoffee.com.au/pages/locations
+    retrieved: 2026-11-15
+    note: Flagship cafes. The list was cut short when read, so it may be incomplete.
+  - url: https://onacoffee.com.au/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: kiambu-regional-pb-kenya-washed
+    name: Kiambu Regional PB, Kenya, Washed
+    forms:
+      - whole_bean
+    process: washed
+    origins:
+      - country: KE
+        region: Kiambu
+    flavor_notes:
+      - other-fruit
+      - raisin
+      - caramelized
+    roaster_notes: Fresh plum and raisin over a sweet toffee finish.
+    url: https://onacoffee.com.au/products/singleorigin-espresso-kiambu-regional-pb-kenya-washed
+    retrieved: 2026-11-15
+  - id: guji-mudole-ethiopia-supernatural
+    name: Guji Mudole, Ethiopia, Supernatural
+    forms:
+      - whole_bean
+    process: experimental
+    origins:
+      - country: ET
+        region: Guji
+    flavor_notes:
+      - other-fruit
+      - berry
+      - grape
+    roaster_notes: Tropical, red berries and concord grape. Supernatural process.
+    url: https://onacoffee.com.au/products/filter-rare-guji-mudole-ethiopia-supernatural
+    retrieved: 2026-11-15
+  - id: la-huerta-honduras-washed
+    name: La Huerta, Honduras, Washed
+    forms:
+      - whole_bean
+    process: washed
+    origins:
+      - country: HN
+        region: Santa Barbara
+    varieties:
+      - catimor
+    flavor_notes:
+      - herb-like
+      - apple
+      - nutty
+    roaster_notes: Soft botanical notes give way to red apple, rounding out with a gentle walnut finish.
+    url: https://onacoffee.com.au/products/filter-single-originla-huerta-honduras-washed
+    retrieved: 2026-11-15
+cafes:
+  - id: the-cupping-room
+    name: The Cupping Room
+    city: Canberra
+    country: AU
+    address: 1/1-13 University Ave, Canberra ACT 2601
+  - id: ona-coffee-house
+    name: ONA Coffee House
+    city: Canberra
+    country: AU
+    address: 68 Wollongong St, Fyshwick, ACT
+  - id: ona-melbourne
+    name: ONA Melbourne
+    city: Melbourne
+    country: AU
+    address: 22 Ovens St, Brunswick VIC 3056
+  - id: ona-dubai
+    name: ONA Dubai
+    city: Dubai
+    country: AE
+    address: 1 41A St, Jumeirah 1

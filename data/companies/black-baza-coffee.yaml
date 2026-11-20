@@ -1,0 +1,34 @@
+id: black-baza-coffee
+name: Black Baza Coffee
+country: IN
+website: https://blackbazacoffee.com
+verified: false
+sources:
+  - url: https://blackbazacoffee.com
+    retrieved: 2026-11-19
+    note: "Collected automatically from the shop's Shopify product feed; not yet checked by a person. The site has a page that may list cafes: https://blackbazacoffee.com/pages/find-us-near-you"
+beans:
+  - id: chukki
+    name: Chukki
+    forms:
+      - whole_bean
+      - ground
+    url: https://blackbazacoffee.com/products/chukki
+    retrieved: 2026-11-19
+    flavor_notes:
+      - dark-chocolate
+      - almond
+      - caramelized
+    roaster_notes: dark chocolate, roasted almonds and lingering caramel
+    serve: either
+    brew_methods:
+      - moka-pot
+      - aeropress
+  - id: anaerobic-naturals-four
+    name: Anaerobic Naturals
+    forms:
+      - whole_bean
+      - ground
+    url: https://blackbazacoffee.com/products/anaerobic-naturals-four
+    retrieved: 2026-11-19
+    process: anaerobic-natural

@@ -1,0 +1,63 @@
+id: beachville-coffee
+name: Beachville Coffee Roasters
+country: IN
+website: https://beachvillecoffee.com
+verified: false
+sources:
+  - url: https://beachvillecoffee.com
+    retrieved: 2026-11-19
+    note: Collected automatically from the shop's Shopify product feed; not yet checked by a person.
+beans:
+  - id: kerehaklu
+    name: Kerehaklu Estate
+    forms:
+      - whole_bean
+      - ground
+    url: https://beachvillecoffee.com/products/kerehaklu
+    retrieved: 2026-11-19
+    altitude_m:
+      min: 1219
+      max: 1219
+    flavor_notes:
+      - other-fruit
+      - honey
+      - caramelized
+    roaster_notes: mango, honey and caramel
+  - id: attikan
+    name: Attikan Estate
+    forms:
+      - whole_bean
+      - ground
+    url: https://beachvillecoffee.com/products/attikan
+    retrieved: 2026-11-19
+    flavor_notes:
+      - caramelized
+      - pineapple
+    roaster_notes: caramelized pineapple and a deep finish, this is a coffee to savour and relax with
+  - id: yele-attikan-estate
+    name: Yele Attikan Estate
+    forms:
+      - whole_bean
+      - ground
+    url: https://beachvillecoffee.com/products/yele-attikan-estate
+    retrieved: 2026-11-19
+    flavor_notes:
+      - chocolate
+      - orange
+    roaster_notes: milk chocolate and mandarin
+    brew_methods:
+      - south-indian-filter
+  - id: espresso-blend-1
+    name: Espresso Blend
+    forms:
+      - whole_bean
+      - ground
+    url: https://beachvillecoffee.com/products/espresso-blend-1
+    retrieved: 2026-11-19
+    blend: true
+    flavor_notes:
+      - berry
+      - caramelized
+    roaster_notes: red berries and the sweetness of dark caramel
+    brew_methods:
+      - espresso

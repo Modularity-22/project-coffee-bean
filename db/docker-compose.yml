@@ -1,0 +1,28 @@
+# Local PostgreSQL and Neo4j for working with the dataset.
+#   docker compose -f db/docker-compose.yml up -d
+# The credentials below are for local development only.
+services:
+  postgres:
+    image: postgres:17
+    environment:
+      POSTGRES_USER: coffee
+      POSTGRES_PASSWORD: coffee
+      POSTGRES_DB: coffee
+    ports:
+      - '5432:5432'
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  neo4j:
+    image: neo4j:5
+    environment:
+      NEO4J_AUTH: neo4j/coffeebean
+    ports:
+      - '7474:7474'
+      - '7687:7687'
+    volumes:
+      - neo4jdata:/data
+
+volumes:
+  pgdata:
+  neo4jdata:

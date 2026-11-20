@@ -1,0 +1,50 @@
+name: Add a roaster
+description: Suggest a coffee company that sells roasted beans and is not in the database yet.
+title: 'data: add <company name>'
+labels: [data, new-company]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Only companies that sell roasted whole-bean or ground coffee. Instant-only brands are out of scope.
+  - type: input
+    id: name
+    attributes:
+      label: Company name
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Website
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: country
+    attributes:
+      label: Country and city
+  - type: dropdown
+    id: cafes
+    attributes:
+      label: Does the company run its own cafes?
+      options: ['Yes', 'No', 'Not sure']
+    validations:
+      required: true
+  - type: textarea
+    id: beans
+    attributes:
+      label: Beans
+      description: For each bean, the name, the link to its product page and, if stated there, origin, process, roast and tasting notes.
+  - type: textarea
+    id: drinks
+    attributes:
+      label: Cafe drinks
+      description: Drinks on the menu and, only if the company says so, which bean each one uses. Include the link.
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirm
+      options:
+        - label: Everything above comes from the linked pages, and none of it is instant coffee.
+          required: true

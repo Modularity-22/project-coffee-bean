@@ -1,0 +1,70 @@
+id: tim-wendelboe
+name: Tim Wendelboe
+country: NO
+city: Oslo
+website: https://www.timwendelboe.no
+has_cafes: true
+cafe_count_approx: 1
+verified: true
+sources:
+  - url: https://www.timwendelboe.no/pages/copy-of-our-story
+    retrieved: 2026-11-15
+    note: Espresso bar and roastery page.
+  - url: https://www.timwendelboe.no/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: los-pirineos-pacamara-christmas-edition
+    name: Los Pirineos Pacamara - Christmas Edition
+    forms:
+      - whole_bean
+    process: honey
+    varieties:
+      - pacamara
+    flavor_notes:
+      - chocolate
+      - other-fruit
+    roaster_notes: Flavour notes of chocolate and ripe stone fruit.
+    url: https://www.timwendelboe.no/products/los-pirineos-pacamara-filter-honey-process-christmas-edition
+    availability: seasonal
+    retrieved: 2026-11-15
+  - id: ngerwe
+    name: Ngerwe - Christmas Edition
+    forms:
+      - whole_bean
+    origins:
+      - country: KE
+        region: Embu
+    flavor_notes:
+      - blackberry
+      - berry
+      - other-fruit
+    roaster_notes: Blackberry, blackcurrants and rose hips.
+    url: https://www.timwendelboe.no/products/ngerwe
+    availability: seasonal
+    retrieved: 2026-11-15
+  - id: nacimiento-pacas
+    name: Nacimiento Pacas
+    forms:
+      - whole_bean
+    varieties:
+      - pacas
+    flavor_notes:
+      - fruity
+      - cocoa
+    roaster_notes: Subtle fruity flavours and notes of cacao in the finish.
+    url: https://www.timwendelboe.no/products/nacimiento-pacas
+    retrieved: 2026-11-15
+cafes:
+  - id: espresso-bar
+    name: Tim Wendelboe Espresso Bar
+    city: Oslo
+    country: NO
+    address: Grünersgate 1, Grünerløkka
+menu:
+  - id: espresso
+    drink: espresso
+    name: Espresso
+    cafe: espresso-bar
+    notes: The bar serves seasonal coffees brewed to order and a small range of espresso-based drinks with or without milk. The menu changes with the harvest seasons.
+    source: https://www.timwendelboe.no/pages/copy-of-our-story
+    retrieved: 2026-11-15

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/Modularity-22/project-coffee-bean/discussions
+    about: Ask a question or float an idea before opening an issue.
+  - name: Report a security problem
+    url: https://github.com/Modularity-22/project-coffee-bean/security/advisories/new
+    about: Report vulnerabilities privately, not in a public issue.

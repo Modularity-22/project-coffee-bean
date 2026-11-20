@@ -1,0 +1,39 @@
+id: toffee-coffee-roasters
+name: Toffee Coffee Roasters
+country: IN
+city: Mumbai
+founded: 2019
+website: https://toffeecoffeeroasters.com
+has_cafes: false
+verified: true
+sources:
+  - url: https://toffeecoffeeroasters.com/pages/about-us
+    retrieved: 2026-11-15
+    note: Started in Bandra, Mumbai, in 2019. No cafes of its own are mentioned.
+  - url: https://toffeecoffeeroasters.com/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: thermal-shock-ratnagiri-estate
+    name: Thermal Shock (Ratnagiri Estate)
+    forms:
+      - whole_bean
+      - ground
+    process: experimental
+    origins:
+      - country: IN
+        region: Chikkamagaluru, Karnataka
+        producer: Ratnagiri Estate
+    roaster_notes: Thermal shock process.
+    url: https://toffeecoffeeroasters.com/products/thermal-shock-ratnagiri-estate
+    retrieved: 2026-11-15
+  - id: south-indian-filter-coffee-80-20
+    name: South Indian Traditional Filter Coffee - (80:20)
+    forms:
+      - ground
+    roast_level: dark
+    blend: true
+    origins:
+      - country: IN
+    roaster_notes: 80% Arabica and 20% chicory, for a traditional metal filter.
+    url: https://toffeecoffeeroasters.com/products/south-indian-traditional-filter-coffee-dark-roast-80-20
+    retrieved: 2026-11-15

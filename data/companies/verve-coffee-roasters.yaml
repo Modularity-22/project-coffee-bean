@@ -1,0 +1,61 @@
+id: verve-coffee-roasters
+name: Verve Coffee Roasters
+country: US
+city: Santa Cruz
+website: https://www.vervecoffee.com
+has_cafes: true
+cafe_count_approx: 17
+verified: true
+sources:
+  - url: https://www.vervecoffee.com/pages/locations
+    retrieved: 2026-11-15
+    note: Cafe list (United States and Japan). City taken from the footer address.
+  - url: https://www.vervecoffee.com/collections/all-coffee
+    retrieved: 2026-11-15
+beans:
+  - id: holiday-blend
+    name: Holiday Blend
+    forms: [whole_bean, ground]
+    process: mixed
+    blend: true
+    origins:
+      - { country: GT, region: Antigua Valley }
+      - { country: ET, region: Guji }
+    url: https://www.vervecoffee.com/products/holiday-blend
+    availability: seasonal
+    retrieved: 2026-11-15
+  - id: fray-david
+    name: Colombia Fray David
+    forms: [whole_bean, ground]
+    process: washed
+    origins:
+      - { country: CO, region: Urrao Valley }
+    varieties: [chiroso]
+    altitude_m: { min: 1900, max: 1900 }
+    url: https://www.vervecoffee.com/products/fray-david
+    retrieved: 2026-11-15
+  - id: malawo
+    name: Ethiopia Malawo
+    forms: [whole_bean, ground]
+    process: washed
+    origins:
+      - { country: ET, region: Sidama, producer: Daye Bensa }
+    altitude_m: { min: 2100, max: 2300 }
+    url: https://www.vervecoffee.com/products/malawo
+    retrieved: 2026-11-15
+  - id: nano-challa
+    name: Ethiopia Nano Challa
+    forms: [whole_bean, ground]
+    process: washed
+    origins:
+      - { country: ET, producer: Nano Challa cooperative }
+    altitude_m: { min: 1900, max: 2200 }
+    url: https://www.vervecoffee.com/products/nano-challa
+    retrieved: 2026-11-15
+cafes:
+  - { id: arts-district, name: Arts District, city: Los Angeles, country: US }
+  - { id: melrose-avenue, name: Melrose Avenue, city: Los Angeles, country: US }
+  - { id: market-street, name: Market Street, city: San Francisco, country: US }
+  - { id: university-ave, name: University Ave, city: Palo Alto, country: US }
+  - { id: pacific-avenue, name: Pacific Avenue, city: Santa Cruz, country: US }
+  - { id: ebisu, name: Ebisu, city: Tokyo, country: JP }

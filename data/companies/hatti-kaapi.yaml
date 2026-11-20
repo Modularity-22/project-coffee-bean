@@ -1,0 +1,43 @@
+id: hatti-kaapi
+name: Hatti Kaapi
+country: IN
+city: Bengaluru
+founded: 2009
+website: https://hattikaapi.com
+description: Filter coffee chain whose first store opened in Gandhi Bazaar, Bengaluru, in 2009.
+has_cafes: true
+cafe_count_approx: 110
+verified: true
+sources:
+  - url: https://hattikaapi.com/pages/about-us
+    retrieved: 2026-11-15
+    note: Outlet count, first store and registered office.
+  - url: https://hattikaapi.com/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: mysore-coffee-powder
+    name: Mysore Coffee Powder (200g)
+    forms: &a1
+      - ground
+    blend: true
+    roaster_notes: 90% coffee and 10% chicory. Strong, rich and full-bodied.
+    url: https://hattikaapi.com/products/mysore-coffee-powder-200g
+    retrieved: 2026-11-15
+  - id: classic-coffee-powder
+    name: Classic Coffee Powder (200g)
+    forms: *a1
+    blend: true
+    varieties:
+      - robusta
+    flavor_notes:
+      - nutty
+    roaster_notes: 80% Robusta coffee and 20% chicory. Bold, with nutty undertones.
+    url: https://hattikaapi.com/products/regular-coffee-powder-200g
+    retrieved: 2026-11-15
+menu:
+  - id: filter-coffee
+    drink: south-indian-filter
+    name: Filter coffee
+    notes: Served in earthen pots at its stores.
+    source: https://hattikaapi.com/pages/about-us
+    retrieved: 2026-11-15

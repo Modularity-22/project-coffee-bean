@@ -1,0 +1,24 @@
+id: sleepy-owl
+name: Sleepy Owl Coffee
+country: IN
+website: https://sleepyowl.co
+description: Mostly sells ready-to-drink and quick-brew coffee, which is out of scope here; only its roasted ground coffee and beans are listed.
+has_cafes: false
+verified: true
+sources:
+  - url: https://sleepyowl.co
+    retrieved: 2026-11-15
+    note: No cafes of its own are mentioned on the pages read; the city is not stated.
+  - url: https://sleepyowl.co/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: ground-coffee-original
+    name: Ground Coffee / Original
+    forms:
+      - whole_bean
+      - ground
+    flavor_notes:
+      - chocolate
+    roaster_notes: 100% Arabica with natural chocolatey notes. Sold as beans or in a variety of grinds.
+    url: https://sleepyowl.co/products/ground-coffee-original
+    retrieved: 2026-11-15

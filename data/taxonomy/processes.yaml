@@ -1,0 +1,39 @@
+- id: washed
+  name: Washed
+  description: 'Fruit removed before drying; also called wet process.'
+- id: natural
+  name: Natural
+  description: 'Dried inside the whole cherry; also called dry process.'
+- id: honey
+  name: Honey
+  description: 'Skin removed but some mucilage left on during drying; includes pulped natural.'
+- id: anaerobic-natural
+  name: Anaerobic natural
+  description: 'Whole cherries fermented without oxygen, then dried in the fruit.'
+- id: anaerobic-washed
+  name: Anaerobic washed
+  description: 'Fermented without oxygen, then washed.'
+- id: carbonic-maceration
+  name: Carbonic maceration
+  description: 'Whole cherries fermented in a carbon-dioxide-rich tank.'
+- id: wet-hulled
+  name: Wet hulled
+  description: 'Parchment removed while still wet (giling basah), common in Indonesia.'
+- id: monsooned
+  name: Monsooned
+  description: 'Green coffee exposed to monsoon winds, as in Monsooned Malabar.'
+- id: experimental
+  name: Experimental
+  description: 'Other fermentations, co-ferments, infusions and barrel ageing.'
+- id: mixed
+  name: Mixed
+  description: 'A blend of coffees processed in different ways.'
+- id: decaf-sugarcane
+  name: Sugarcane decaf
+  description: 'Decaffeinated with ethyl acetate derived from sugarcane.'
+- id: decaf-swiss-water
+  name: Swiss Water decaf
+  description: 'Decaffeinated with water only.'
+- id: decaf-co2
+  name: CO2 decaf
+  description: 'Decaffeinated with pressurised carbon dioxide.'

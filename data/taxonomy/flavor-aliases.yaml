@@ -1,0 +1,259 @@
+# Words roasters print on bags that are not flavour-wheel terms, and the wheel
+# term each one is recorded as. Used by the scraper and by the validator's
+# suggestions. The roaster's own wording is always kept in `roaster_notes`.
+#
+# Rule of thumb: map to the closest wheel term, and go up a level rather than
+# pick a specific term that is not really what the roaster said. Mango is not
+# "pineapple"; it is "other-fruit".
+#
+# A word mapped to `null` is a texture or impression, not a flavour (creamy,
+# juicy, clean). It stays in `roaster_notes` and is left out of `flavor_notes`.
+
+# --- Fruity
+berries: berry
+mixed berries: berry
+red berries: berry
+wild berries: berry
+dark berries: berry
+berry compote: berry
+blackcurrant: berry
+black currant: berry
+redcurrant: berry
+cranberry: berry
+mulberry: berry
+gooseberry: berry
+elderberry: berry
+boysenberry: berry
+cherries: cherry
+dark cherry: cherry
+red cherry: cherry
+black cherry: cherry
+stone fruit: other-fruit
+stonefruit: other-fruit
+apricot: other-fruit
+nectarine: other-fruit
+plum: other-fruit
+red plum: other-fruit
+peaches: peach
+tropical fruit: other-fruit
+tropical: other-fruit
+mango: other-fruit
+raw mango: other-fruit
+papaya: other-fruit
+passion fruit: other-fruit
+passionfruit: other-fruit
+lychee: other-fruit
+litchi: other-fruit
+guava: other-fruit
+melon: other-fruit
+muskmelon: other-fruit
+watermelon: other-fruit
+banana: other-fruit
+kiwi: other-fruit
+jackfruit: other-fruit
+dragon fruit: other-fruit
+fig: dried-fruit
+date: dried-fruit
+dates: dried-fruit
+dried fruits: dried-fruit
+raisins: raisin
+sultana: raisin
+red apple: apple
+green apple: apple
+rose apple: apple
+apples: apple
+black grape: grape
+green grape: grape
+muscat grape: grape
+grapes: grape
+citrus: citrus-fruit
+citrus zest: citrus-fruit
+citrusy: citrus-fruit
+bergamot: citrus-fruit
+yuzu: citrus-fruit
+citron: citrus-fruit
+kumquat: citrus-fruit
+mandarin: orange
+mandarins: orange
+tangerine: orange
+clementine: orange
+orange marmalade: orange
+marmalade: orange
+orange zest: orange
+blood orange: orange
+sweet lime: lime
+lemon zest: lemon
+fruity: fruity
+fruit: fruity
+ripe fruit: fruity
+red fruit: fruity
+your favourite fruit: fruity
+jack fruit: other-fruit
+persimmon: other-fruit
+quince: other-fruit
+honeydew: other-fruit
+rose hip: other-fruit
+rose hips: other-fruit
+jam: fruity
+
+# --- Floral
+flowers: floral
+floral aroma: floral
+hibiscus: floral
+lavender: floral
+orange blossom: floral
+honeysuckle: floral
+elderflower: floral
+marigold: floral
+rose petal: rose
+earl grey: black-tea
+tea: floral
+tea-like: floral
+green tea: floral
+white tea: floral
+peach tea: black-tea
+
+# --- Sour / fermented
+wine: winey
+red wine: winey
+wine-like: winey
+bourbon: whiskey
+whisky: whiskey
+rum: alcohol-fermented
+amarula: alcohol-fermented
+liqueur: alcohol-fermented
+brandy: alcohol-fermented
+boozy: alcohol-fermented
+funky: fermented
+funk: fermented
+
+# --- Green / vegetative and other
+herbal: herb-like
+herbs: herb-like
+lemongrass: herb-like
+mint: herb-like
+basil: herb-like
+botanical: herb-like
+eucalyptus: herb-like
+thyme: herb-like
+rosemary: herb-like
+forest floor: musty-earthy
+mushroom: musty-earthy
+leather: animalic
+earthy: musty-earthy
+cedar: woody
+oak: woody
+sandalwood: woody
+
+# --- Roasted
+toast: brown-roast
+toasty: brown-roast
+toasted: brown-roast
+roasty: brown-roast
+smokey: smoky
+smoked oak: smoky
+biscuit: cereal
+biscuits: cereal
+cookie: cereal
+cookies: cereal
+butter biscuits: cereal
+cracker: cereal
+bread: cereal
+toasted bread: cereal
+roasted grain: grain
+malty: malt
+
+# --- Spices
+spice: spices
+spicy: spices
+cardamom: brown-spice
+brown spices: brown-spice
+baking spices: brown-spice
+liquorice: anise
+licorice: anise
+fennel: anise
+star anise: anise
+allspice: brown-spice
+black pepper: pepper
+ginger: pungent
+
+# --- Nutty / cocoa
+nuts: nutty
+toasted nuts: nutty
+roasted nuts: nutty
+walnut: nutty
+pecan: nutty
+cashew: nutty
+macadamia: nutty
+pistachio: nutty
+roasted almond: almond
+roasted almonds: almond
+almonds: almond
+roasted hazelnut: hazelnut
+peanut: peanuts
+praline: hazelnut
+marzipan: almond
+cacao: cocoa
+cacao nibs: cocoa
+cocoa nibs: cocoa
+raw cacao: cocoa
+chocolatey: chocolate
+chocolaty: chocolate
+milk chocolate: chocolate
+white chocolate: chocolate
+chocolate truffle: chocolate
+chocolate fudge: chocolate
+bitter chocolate: dark-chocolate
+bittersweet chocolate: dark-chocolate
+baker's chocolate: dark-chocolate
+
+# --- Sweet
+caramel: caramelized
+salted caramel: caramelized
+caramelised sugar: caramelized
+toffee: caramelized
+butterscotch: caramelized
+fudge: caramelized
+jaggery: brown-sugar
+panela: brown-sugar
+muscovado: brown-sugar
+demerara: brown-sugar
+sugarcane: brown-sugar
+cane sugar: brown-sugar
+cane juice: brown-sugar
+dulce de leche: caramelized
+caramelised: caramelized
+caramelised sweetness: caramelized
+caramelized sweetness: caramelized
+cola: sweet-aromatics
+smoke: smoky
+ash: ashy
+graham cracker: cereal
+biscotti: cereal
+peanut butter: peanuts
+baking chocolate: dark-chocolate
+dark cocoa: cocoa
+treacle: molasses
+maple: maple-syrup
+wild honey: honey
+blossom honey: honey
+sweet: overall-sweet
+sweetness: overall-sweet
+white sugar: overall-sweet
+candy: overall-sweet
+nougat: sweet-aromatics
+marshmallow: sweet-aromatics
+
+# --- Not flavours: kept in roaster_notes only
+creamy: null
+cream: null
+butter: null
+buttery: null
+yoghurt: null
+juicy: null
+clean: null
+smooth: null
+balanced: null
+bright: null
+syrupy: null
+silky: null

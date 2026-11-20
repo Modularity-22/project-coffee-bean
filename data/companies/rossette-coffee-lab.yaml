@@ -1,0 +1,67 @@
+id: rossette-coffee-lab
+name: Rossette Coffee Lab
+country: IN
+city: New Delhi
+website: https://rossettecoffee.com
+has_cafes: false
+verified: true
+sources:
+  - url: https://rossettecoffee.com
+    retrieved: 2026-11-15
+    note: Roastery and experience centre in Delhi. No cafes are mentioned.
+  - url: https://rossettecoffee.com/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: trip-to-alba-blend
+    name: Trip to Alba Blend
+    forms:
+      - whole_bean
+      - ground
+    roast_level: medium
+    process: washed
+    blend: true
+    origins:
+      - country: IN
+        region: Karnataka
+      - country: IN
+        region: Tamil Nadu
+    flavor_notes:
+      - hazelnut
+      - chocolate
+      - caramelized
+    roaster_notes: Hazelnut praline up front, then chocolate fudge and toffee.
+    url: https://rossettecoffee.com/products/trip-to-alba-blend
+    retrieved: 2026-11-15
+  - id: berry-me-slowly-blend
+    name: Berry Me Slowly Blend
+    forms:
+      - whole_bean
+      - ground
+    roast_level: medium
+    process: mixed
+    blend: true
+    flavor_notes:
+      - chocolate
+      - berry
+      - prune
+    roaster_notes: Chocolate truffle, then berry compote, with prune jam sweetness. A washed coffee paired with an anaerobic natural.
+    url: https://rossettecoffee.com/products/berry-me-slowly
+    retrieved: 2026-11-15
+  - id: yk-bourbon-double-cask-aged
+    name: YK Bourbon Double Cask Aged (SCA 87+)
+    forms:
+      - whole_bean
+      - ground
+    roast_level: medium
+    process: experimental
+    origins:
+      - country: IN
+        region: Chikmagalur, Karnataka
+    altitude_m:
+      min: 1200
+      max: 1200
+    flavor_notes:
+      - whiskey
+    roaster_notes: Washed coffee rested as green beans for three months in double cask barrels.
+    url: https://rossettecoffee.com/products/yk-bourbon-double-cask-aged-sca-87
+    retrieved: 2026-11-15

@@ -1,0 +1,81 @@
+id: araku-coffee
+name: ARAKU Coffee
+country: IN
+website: https://www.arakucoffee.in
+description: Coffee grown in the Araku Valley and sold through the company's own cafes in India and France.
+has_cafes: true
+cafe_count_approx: 8
+verified: true
+sources:
+  - url: https://www.arakucoffee.in/pages/locations
+    retrieved: 2026-11-15
+    note: Lists eight cafes. Countries are inferred from the city names.
+  - url: https://www.arakucoffee.in/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: high-altitude
+    name: High Altitude
+    forms:
+      - whole_bean
+      - ground
+    roast_level: medium
+    process: honey
+    origins:
+      - country: IN
+        region: Bakuru village, Araku Valley
+        producer: Korra Chittibabu and Varalakshmi
+    altitude_m:
+      min: 1155
+      max: 1330
+    flavor_notes:
+      - apple
+      - cereal
+      - caramelized
+      - dark-chocolate
+    roaster_notes: Rose apple, buttercream cookies, caramel, baker's chocolate. Black honey process. Altitude published as 3,790 to 4,362 feet.
+    url: https://www.arakucoffee.in/products/high-altitude
+    retrieved: 2026-11-15
+  - id: festive-edit
+    name: Festive Edit 1.26
+    forms:
+      - whole_bean
+      - ground
+    roast_level: medium-light
+    process: mixed
+    flavor_notes:
+      - floral
+      - other-fruit
+      - spices
+    roaster_notes: Orange blossom, guava, ripe stone fruit, cascara, hint of spice.
+    url: https://www.arakucoffee.in/products/festive-edit-1-26-diwali-coffee
+    availability: seasonal
+    retrieved: 2026-11-15
+cafes:
+  - id: indiranagar
+    name: ARAKU Coffee, Indiranagar
+    city: Bengaluru
+    country: IN
+  - id: ashok-nagar
+    name: ARAKU Coffee, Ashok Nagar
+    city: Bengaluru
+    country: IN
+  - id: colaba
+    name: ARAKU Coffee, Colaba
+    city: Mumbai
+    country: IN
+  - id: bandra
+    name: ARAKU Coffee, Bandra
+    city: Mumbai
+    country: IN
+  - id: le-marais
+    name: ARAKU Coffee, Le Marais
+    city: Paris
+    country: FR
+  - id: pantheon
+    name: ARAKU Coffee, Pantheon
+    city: Paris
+    country: FR
+  - id: aligre
+    name: ARAKU Coffee, Aligre
+    city: Paris
+    country: FR

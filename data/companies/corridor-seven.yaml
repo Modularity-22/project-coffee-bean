@@ -1,0 +1,84 @@
+id: corridor-seven
+name: Corridor Seven Coffee Roasters
+country: IN
+city: Nagpur
+founded: 2017
+website: https://corridorseven.coffee
+has_cafes: true
+cafe_count_approx: 8
+verified: true
+sources:
+  - url: https://corridorseven.coffee/pages/about-us-1
+    retrieved: 2026-11-15
+    note: Headquarters and founding year.
+  - url: https://corridorseven.coffee/pages/spaces
+    retrieved: 2026-11-15
+    note: Lists eight spaces, including Brim cafes; the page does not state the city of each.
+  - url: https://corridorseven.coffee/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: gungegiri-estate-lactic-honey
+    name: Gungegiri Estate - Lactic Honey
+    forms:
+      - whole_bean
+      - ground
+    roast_level: light
+    process: honey
+    origins:
+      - country: IN
+        producer: Gungegiri Estate (S. Appadurai and Hamsini Appadurai)
+    varieties:
+      - catimor
+    altitude_m:
+      min: 1400
+      max: 1450
+    flavor_notes:
+      - berry
+      - peach
+      - floral
+    roaster_notes: Gooseberry, Peach, White Tea. Lactic honey process.
+    url: https://corridorseven.coffee/products/gungegiri-estate-lactic-honey
+    retrieved: 2026-11-15
+  - id: salawara-estate-mosto-hsd
+    name: Salawara Estate - Mosto Honey Sun Dried
+    forms:
+      - whole_bean
+      - ground
+    roast_level: light
+    process: honey
+    origins:
+      - country: IN
+        producer: Salawara Estate (Sharan Gowda)
+    varieties:
+      - sln-795
+    altitude_m:
+      min: 1100
+      max: 1100
+    flavor_notes:
+      - grape
+      - pear
+    roaster_notes: Muscat Grape, Soft Pear and Lingering Finish.
+    url: https://corridorseven.coffee/products/salawara-estate-mosto-hsd
+    retrieved: 2026-11-15
+  - id: melkodige-estate-washed
+    name: Melkodige Estate - Washed
+    forms:
+      - whole_bean
+      - ground
+    roast_level: medium-light
+    process: washed
+    origins:
+      - country: IN
+        producer: Melkodige Estate (Aveen and Yogita Rodrigues)
+    varieties:
+      - sln-795
+    altitude_m:
+      min: 1280
+      max: 1280
+    flavor_notes:
+      - cherry
+      - berry
+      - overall-sweet
+    roaster_notes: Dark Cherry, Mulberry and Sweet finish.
+    url: https://corridorseven.coffee/products/melkodige-estate-washed
+    retrieved: 2026-11-15

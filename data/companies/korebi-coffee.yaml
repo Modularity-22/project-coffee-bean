@@ -1,0 +1,130 @@
+id: korebi-coffee
+name: Korebi Coffee
+country: IN
+website: https://korebicoffee.com
+verified: false
+sources:
+  - url: https://korebicoffee.com
+    retrieved: 2026-11-19
+    note: Collected automatically from the shop's Shopify product feed; not yet checked by a person.
+beans:
+  - id: golden-toast-brew
+    name: Golden Toast Brew
+    forms:
+      - whole_bean
+      - ground
+    url: https://korebicoffee.com/products/golden-toast-brew
+    retrieved: 2026-11-19
+    roast_level: medium-dark
+    blend: true
+    origins:
+      - country: IN
+    flavor_notes:
+      - malt
+      - almond
+      - chocolate
+      - blackberry
+    roaster_notes: toasted malt, almond, chocolate, and blackberry
+  - id: sidrgavi-estate
+    name: Sidrigavi Estate
+    forms:
+      - whole_bean
+      - ground
+    url: https://korebicoffee.com/products/sidrgavi-estate
+    retrieved: 2026-11-19
+    roast_level: medium
+    altitude_m:
+      min: 1650
+      max: 1650
+    flavor_notes:
+      - nutty
+      - raisin
+      - cocoa
+      - caramelized
+    roaster_notes: roasted nuts, raisin, and cocoa , perfectly complemented by smooth caramel sweetness
+  - id: the-dark-side-roast-coffee
+    name: The Dark Side - Dark Roast Coffee
+    forms:
+      - whole_bean
+      - ground
+    url: https://korebicoffee.com/products/the-dark-side-roast-coffee
+    retrieved: 2026-11-19
+    roast_level: dark
+    blend: true
+    flavor_notes:
+      - burnt
+      - caramelized
+      - nutty
+    roaster_notes: burnt caramel and subtle notes of toasted walnuts
+  - id: moganad-estate-honey-sundried-1
+    name: Moganad Estate - Honey Sundried
+    forms:
+      - whole_bean
+      - ground
+    url: https://korebicoffee.com/products/moganad-estate-honey-sundried-1
+    retrieved: 2026-11-19
+    roast_level: medium
+    process: honey
+  - id: colombia-popayan-decaf-x-korebi-coffee
+    name: Colombia, Popayan Decaf by Kiss the Hippo X Korebi Coffee
+    forms:
+      - whole_bean
+      - ground
+    url: https://korebicoffee.com/products/colombia-popayan-decaf-x-korebi-coffee
+    retrieved: 2026-11-19
+    blend: true
+    decaf: true
+    origins:
+      - country: CO
+    varieties:
+      - colombia
+  - id: wabi-medium-dark-roast-coffee
+    name: Wabi - Medium Dark Roast Coffee
+    forms:
+      - whole_bean
+      - ground
+    url: https://korebicoffee.com/products/wabi-medium-dark-roast-coffee
+    retrieved: 2026-11-19
+    roast_level: medium-dark
+    blend: true
+    profile:
+      acidity: 1
+  - id: melkodige-estate-yeast-fermented
+    name: Melkodige Estate - Yeast Fermented
+    forms:
+      - whole_bean
+      - ground
+    url: https://korebicoffee.com/products/melkodige-estate-yeast-fermented
+    retrieved: 2026-11-19
+    process: experimental
+  - id: espresso-intenso
+    name: Espresso Intenso - 80% Arabica / 20% Robusta
+    forms:
+      - whole_bean
+      - ground
+    url: https://korebicoffee.com/products/espresso-intenso
+    retrieved: 2026-11-19
+    roast_level: dark
+    varieties:
+      - robusta
+  - id: tropical-haze-medium-roast-coffee
+    name: Tropical Haze - Medium Roast Coffee
+    forms:
+      - whole_bean
+      - ground
+    url: https://korebicoffee.com/products/tropical-haze-medium-roast-coffee
+    retrieved: 2026-11-19
+    roast_level: medium
+    blend: true
+  - id: the-bourbon-limited-edition-coffee
+    name: The Bourbon - Limited Edition
+    forms:
+      - whole_bean
+      - ground
+    url: https://korebicoffee.com/products/the-bourbon-limited-edition-coffee
+    retrieved: 2026-11-19
+    varieties:
+      - bourbon
+    flavor_notes:
+      - whiskey
+    roaster_notes: Tennessee Whiskey resulting in an exciting and unique drinking experience

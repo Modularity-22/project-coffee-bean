@@ -1,0 +1,143 @@
+# Coffee companies in India that sell roasted beans or ground coffee.
+# This is the scraper's to-do list: `npm run scrape -- in`.
+#
+# Add a company by adding a line. Only `id`, `name` and `website` are needed.
+# `city`, `has_cafes` and `cafe_count_approx` are optional and should be filled
+# only from the company's own site. Instant-only brands do not belong here.
+#
+# The scraper checks that each website really names the company, so a wrong
+# address is reported instead of producing bad data.
+
+# --- North
+- { id: blue-tokai, name: Blue Tokai Coffee Roasters, website: 'https://bluetokaicoffee.com' }
+- { id: savorworks, name: Savorworks Roasters, website: 'https://www.savorworksroasters.com' }
+- { id: devans, name: "Devan's South Indian Coffee & Tea", website: 'https://devans.in' }
+- { id: kaffa-cerrado, name: Kaffa Cerrado, website: 'https://kaffacerrado.com' }
+- { id: rossette-coffee-lab, name: Rossette Coffee Lab, website: 'https://rossettecoffee.com' }
+- { id: bili-hu, name: Bili Hu, website: 'https://bilihu.in' }
+- { id: sleepy-owl, name: Sleepy Owl Coffee, website: 'https://sleepyowl.co' }
+- {
+    id: bloom-coffee-roasters,
+    name: Bloom Coffee Roasters,
+    website: 'https://bloomcoffeeroasters.in',
+  }
+- { id: ikkis-coffee, name: Ikkis Coffee Roasters, website: 'https://ikkis.coffee' }
+- {
+    id: half-light-coffee,
+    name: Half Light Coffee Roasters,
+    website: 'https://halflightcoffee.com',
+  }
+- {
+    id: curious-life-coffee,
+    name: Curious Life Coffee Roasters,
+    website: 'https://curiouslifecoffee.com',
+  }
+- {
+    id: home-blend-coffee-roasters,
+    name: Home Blend Coffee Roasters,
+    website: 'https://homeblendcoffee.com',
+  }
+
+# --- West
+- { id: subko, name: Subko Specialty Coffee Roasters, website: 'https://www.subko.coffee' }
+- { id: dope-coffee, name: Dope Coffee Roasters, website: 'https://dopecoffee.in' }
+- {
+    id: toffee-coffee-roasters,
+    name: Toffee Coffee Roasters,
+    website: 'https://toffeecoffeeroasters.com',
+  }
+- { id: tulum-coffee, name: Tulum Coffee, website: 'https://tulum.coffee' }
+- { id: grey-soul, name: Grey Soul Coffee Roasters, website: 'https://greysoul.coffee' }
+- {
+    id: corridor-seven,
+    name: Corridor Seven Coffee Roasters,
+    website: 'https://corridorseven.coffee',
+  }
+- { id: caarabi-coffee, name: Caarabi Coffee Roasters, website: 'https://caarabicoffee.com' }
+- { id: korebi-coffee, name: Korebi Coffee, website: 'https://korebicoffee.com' }
+- {
+    id: bombay-island-coffee,
+    name: Bombay Island Coffee Company,
+    website: 'https://bombayisland.com',
+  }
+- {
+    id: quick-brown-fox,
+    name: Quick Brown Fox Coffee Roasters,
+    website: 'https://quickbrownfoxcoffee.com',
+  }
+- { id: the-caffeine-baar, name: The Caffeine Baar, website: 'https://thecaffeinebaar.com' }
+
+# --- South
+- { id: araku-coffee, name: ARAKU Coffee, website: 'https://www.arakucoffee.in' }
+- {
+    id: third-wave-coffee,
+    name: Third Wave Coffee,
+    website: 'https://www.thirdwavecoffeeroasters.com',
+  }
+- {
+    id: maverick-and-farmer,
+    name: Maverick & Farmer Coffee,
+    website: 'https://www.maverickandfarmer.com',
+  }
+- { id: black-baza-coffee, name: Black Baza Coffee, website: 'https://blackbazacoffee.com' }
+- { id: nandan-coffee, name: Nandan Coffee, website: 'https://www.nandancoffee.com' }
+- { id: karma-kaapi, name: Karma Kaapi, website: 'https://karmakaapi.com' }
+- { id: hatti-kaapi, name: Hatti Kaapi, website: 'https://hattikaapi.com' }
+- { id: cothas-coffee, name: Cothas Coffee, website: 'https://cothas.com' }
+- { id: bayars-coffee, name: Bayar's Coffee, website: 'https://bayarscoffee.com' }
+- { id: the-flying-squirrel, name: The Flying Squirrel, website: 'https://www.flyingsquirrel.in' }
+- { id: the-indian-bean, name: The Indian Bean, website: 'https://theindianbean.com' }
+- { id: seven-beans, name: Seven Beans Coffee Company, website: 'https://sevenbeans.co' }
+- { id: fraction9-coffee, name: Fraction9 Coffee, website: 'https://fraction9coffee.com' }
+- { id: mokka-farms, name: MokkaFarms, website: 'https://mokkafarms.com' }
+- { id: babas-beans, name: "Baba's Beans", website: 'https://babasbeanscoffee.com' }
+- { id: ainmane, name: Ainmane, website: 'https://ainmane.com' }
+- { id: kapi-kottai, name: Kāpi Kottai, website: 'https://kapikottai.coffee' }
+- {
+    id: beachville-coffee,
+    name: Beachville Coffee Roasters,
+    website: 'https://beachvillecoffee.com',
+  }
+- { id: marcs-coffee, name: "Marc's Coffee", website: 'https://marcscoffees.com' }
+- {
+    id: roastery-coffee-house,
+    name: Roastery Coffee House,
+    website: 'https://roasterycoffee.co.in',
+  }
+- { id: naivo, name: Naivo Cafe, website: 'https://naivo.in' }
+- { id: panduranga-coffee, name: Panduranga Coffee, website: 'https://pandurangacoffee.com' }
+- { id: kaveri-coffee, name: Kaveri Coffee, website: 'https://kavericoffee.com' }
+- { id: classic-coffees, name: Classic Coffees, website: 'https://classiccoffees.in' }
+- { id: pascucci-wayanad, name: Wayanad Coffee, website: 'https://wayanadcoffee.com' }
+
+# --- East and North-East
+- { id: ete-coffee, name: Été Coffee, website: 'https://etecoffee.com' }
+- {
+    id: smoky-falls-tribe-coffee,
+    name: Smoky Falls Tribe Coffee,
+    website: 'https://smokyfallstribecoffee.com',
+  }
+- { id: nagaland-coffee, name: Nagaland Coffee, website: 'https://nagalandcoffee.com' }
+- { id: koraput-coffee, name: Koraput Coffee, website: 'https://koraputcoffee.com' }
+# --- Website not confirmed yet
+# These companies are known to sell roasted coffee, but the address tried did not
+# answer or did not name them. Add the right `website` and move the line up.
+# - { id: alchemist-coffee, name: Alchemist Coffee Roasters }
+# - { id: kilta-coffee, name: Kilta Coffee Co. }
+# - { id: perch-coffee, name: Perch Coffee }
+# - { id: first-coffee, name: First Coffee Roasters }
+# - { id: kc-roasters, name: KC Roasters (Koinonia) }
+# - { id: g-shot-coffee, name: G-Shot Coffee Roastery }
+# - { id: coffee-mechanics, name: Coffee Mechanics }
+# - { id: boojee-beans, name: Boojee Beans }
+# - { id: kalmane-koffees, name: Kalmane Koffees }
+# - { id: ratnagiri-estate, name: Ratnagiri Estate }
+# - { id: leo-coffee, name: Leo Coffee }
+# - { id: narasus-coffee, name: "Narasu's Coffee" }
+# - { id: coffee-day, name: Café Coffee Day }
+# - { id: beanrove, name: Beanrove Coffee Roasters }
+# - { id: harley-estate, name: Harley Estate Coffee }
+# - { id: 7000-steps, name: 7000 Steps }
+
+# --- Left out on purpose
+# Levista: its shop is almost entirely instant coffee, which is out of scope.

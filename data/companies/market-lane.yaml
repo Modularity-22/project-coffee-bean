@@ -1,0 +1,88 @@
+id: market-lane
+name: Market Lane Coffee
+country: AU
+city: Melbourne
+website: https://marketlane.com.au
+has_cafes: true
+cafe_count_approx: 11
+verified: true
+sources:
+  - url: https://marketlane.com.au
+    retrieved: 2026-11-15
+    note: Location list. The page names suburbs; Melbourne is inferred from them.
+  - url: https://marketlane.com.au/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: muhathi
+    name: Muhathi
+    forms: [whole_bean, ground]
+    process: washed
+    origins:
+      - { country: KE, region: Embu, producer: Peris Wambui Karugondo }
+    varieties: [sl28, sl34, batian]
+    url: https://marketlane.com.au/products/muhathi
+    retrieved: 2026-11-15
+  - id: calahute
+    name: Calahute
+    forms: [whole_bean, ground]
+    process: washed
+    origins:
+      - { country: GT, region: Huehuetenango, producer: Alfonso Anzueto }
+    varieties: [maragogype]
+    url: https://marketlane.com.au/products/calahute
+    retrieved: 2026-11-15
+  - id: guacamaya
+    name: Guacamaya
+    forms: [whole_bean, ground]
+    process: washed
+    origins:
+      - { country: GT, region: Huehuetenango, producer: Nery Pablo López }
+    varieties: [caturra]
+    url: https://marketlane.com.au/products/guacamaya
+    retrieved: 2026-11-15
+  - id: el-faldon
+    name: El Faldón
+    forms: [whole_bean, ground]
+    process: washed
+    origins:
+      - { country: CO, region: 'Caicedo, Antioquia', producer: Rubén Darío & Rosa Eleny Gómez }
+    varieties: [caturra, bourbon]
+    url: https://marketlane.com.au/products/el-faldon
+    retrieved: 2026-11-15
+cafes:
+  - {
+      id: carlton,
+      name: Carlton,
+      city: Melbourne,
+      country: AU,
+      url: 'https://marketlane.com.au/pages/faraday-st-carlton-cafe',
+    }
+  - { id: fitzroy-north, name: Fitzroy North, city: Melbourne, country: AU }
+  - {
+      id: mitchell-house,
+      name: 'Mitchell House, CBD',
+      city: Melbourne,
+      country: AU,
+      url: 'https://marketlane.com.au/pages/mitchell-house-melbourne-cbd',
+    }
+  - {
+      id: prahran-market,
+      name: Prahran Market,
+      city: Melbourne,
+      country: AU,
+      url: 'https://marketlane.com.au/pages/prahran-market-cafe',
+    }
+  - {
+      id: brunswick-east,
+      name: 'Roastery & HQ, Brunswick East',
+      city: Melbourne,
+      country: AU,
+      url: 'https://marketlane.com.au/pages/roastery-brunswick-east',
+    }
+  - {
+      id: south-melbourne,
+      name: South Melbourne,
+      city: Melbourne,
+      country: AU,
+      url: 'https://marketlane.com.au/pages/south-melbourne-cafe',
+    }

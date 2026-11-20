@@ -1,0 +1,57 @@
+id: seven-beans
+name: Seven Beans Coffee Company
+country: IN
+city: Chikmagalur
+website: https://sevenbeans.co
+description: Crop-to-cup venture between Indian coffee growers and Italian roasters, with its roastery in Chikmagalur.
+has_cafes: false
+verified: true
+sources:
+  - url: https://sevenbeans.co/pages/roasteries
+    retrieved: 2026-11-15
+    note: Roastery location. No cafes of its own are mentioned on the pages read.
+  - url: https://sevenbeans.co/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: woddae
+    name: Woddae Coffee
+    forms:
+      - whole_bean
+      - ground
+    blend: true
+    origins:
+      - country: IN
+        region: Chikmagalur
+    flavor_notes:
+      - cocoa
+    roaster_notes: Arabica and Robusta. Smooth, with rich crema and a heady cacao aroma.
+    url: https://sevenbeans.co/products/woddae
+    retrieved: 2026-11-15
+  - id: arabica-aaa-chikmagalur
+    name: Arabica | AAA Single Origin Chikmagalur Coffee | Italian Artisan Roast
+    forms:
+      - whole_bean
+      - ground
+    origins:
+      - country: IN
+        region: Chikmagalur
+    flavor_notes:
+      - smoky
+      - dark-chocolate
+      - citrus-fruit
+      - pungent
+    roaster_notes: Sold as dark (smoked oak and bitter chocolate) or medium (citrus and ginger).
+    url: https://sevenbeans.co/products/seven-beans-100-arabica-single-origin-gourmet-indian-coffee
+    retrieved: 2026-11-15
+  - id: agumbe-filter-coffee
+    name: Agumbe South Indian Filter Coffee Powder - Coffee 70%, Chicory 30%
+    forms:
+      - ground
+    roast_level: dark
+    blend: true
+    origins:
+      - country: IN
+        region: Chikmagalur
+    roaster_notes: 70% coffee and 30% chicory, coarsely ground for a South Indian filter.
+    url: https://sevenbeans.co/products/agumbe-south-indian-filter-coffee-powder-coffee-70-chicory-30
+    retrieved: 2026-11-15

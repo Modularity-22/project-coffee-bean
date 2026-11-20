@@ -1,0 +1,62 @@
+id: third-wave-coffee
+name: Third Wave Coffee
+country: IN
+city: Bengaluru
+founded: 2016
+website: https://www.thirdwavecoffeeroasters.com
+description: Started with one cafe in Bengaluru in 2016 and now reports more than 75 cafes in over seven Indian cities.
+has_cafes: true
+cafe_count_approx: 75
+verified: true
+sources:
+  - url: https://thirdwavecoffee.in/pages/cafes
+    retrieved: 2026-11-15
+    note: Cafe count, first cafe and office address.
+  - url: https://www.thirdwavecoffeeroasters.com/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: chikmagalur-region
+    name: Speciality Single Origin Chikmagalur Region
+    forms:
+      - whole_bean
+      - ground
+    roast_level: medium-light
+    origins:
+      - country: IN
+        region: Chikmagalur, Karnataka
+    flavor_notes:
+      - honey
+      - raisin
+      - peach
+    roaster_notes: Sweet honey and raisin with a juicy peach note.
+    url: https://www.thirdwavecoffeeroasters.com/products/speciality-single-origin-chikmagalur-region
+    retrieved: 2026-11-15
+  - id: bababudangiri-region
+    name: Speciality Single Origin Bababudangiri Region
+    forms:
+      - whole_bean
+      - ground
+    roast_level: medium-light
+    origins:
+      - country: IN
+        region: Baba Budan Giri hills
+    flavor_notes:
+      - other-fruit
+      - pineapple
+    roaster_notes: Juicy passionfruit balanced by the brightness of pineapple.
+    url: https://www.thirdwavecoffeeroasters.com/products/speciality-single-origin-bababudangiri-region
+    retrieved: 2026-11-15
+  - id: monsoon-malabar
+    name: Monsoon Malabar
+    forms:
+      - whole_bean
+      - ground
+    roast_level: medium-dark
+    process: monsooned
+    flavor_notes:
+      - musty-earthy
+      - spices
+      - dark-chocolate
+    roaster_notes: Earthy and bold, with aromatic spices and deep, dark chocolate notes.
+    url: https://www.thirdwavecoffeeroasters.com/products/monsoon-malabar-aa
+    retrieved: 2026-11-15

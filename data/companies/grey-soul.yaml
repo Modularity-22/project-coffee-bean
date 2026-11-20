@@ -1,0 +1,116 @@
+id: grey-soul
+name: Grey Soul Coffee Roasters
+country: IN
+city: Pune
+website: https://greysoul.coffee
+description: Roasts Indian specialty coffee in-house at its Pune cafe, which it calls a Noshery.
+has_cafes: true
+cafe_count_approx: 3
+verified: true
+sources:
+  - url: https://greysoul.coffee/pages/our-cafe
+    retrieved: 2026-11-15
+    note: Three Noshery cafes; the roastery is inside the Pune one.
+  - url: https://greysoul.coffee/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: raspberry-in-loop
+    name: Raspberry in Loop
+    forms:
+      - whole_bean
+      - ground
+    roast_level: medium
+    process: anaerobic-natural
+    origins:
+      - country: IN
+        region: Chikmagalur, Karnataka
+    varieties:
+      - sln-795
+      - chandragiri
+    altitude_m:
+      min: 1274
+      max: 1274
+    flavor_notes:
+      - raspberry
+    roaster_notes: Heavy bodied with raspberry tartiness. Three-stage anaerobic fermentation.
+    url: https://greysoul.coffee/products/raspberry-in-loop
+    retrieved: 2026-11-15
+  - id: the-yellow-lot
+    name: The Yellow Lot
+    forms:
+      - whole_bean
+      - ground
+    roast_level: medium-dark
+    process: anaerobic-natural
+    origins:
+      - country: IN
+        region: Chikmagalur
+        producer: Ratnagiri Estate
+    varieties:
+      - sln-9
+    altitude_m:
+      min: 1356
+      max: 1356
+    roaster_notes: Deeply sweet cup, crema rich and heavy bodied with a lingering aftertaste.
+    url: https://greysoul.coffee/products/the-yellow-lot-grey-soul-coffee
+    retrieved: 2026-11-15
+    flavor_notes:
+      - overall-sweet
+  - id: jampui-tripura
+    name: Jampui Tripura (Light-Med)
+    forms:
+      - whole_bean
+      - ground
+    roast_level: medium-light
+    process: natural
+    origins:
+      - country: IN
+        region: Vanghmun Village, Jampui Hills, Tripura
+    varieties:
+      - sln-9
+      - chandragiri
+    altitude_m:
+      min: 1000
+      max: 1000
+    flavor_notes:
+      - orange
+      - apple
+      - other-fruit
+    roaster_notes: Mandarin and crisp apple lead the cup before plum and melon.
+    url: https://greysoul.coffee/products/jampui-tripura-coffee-light-med-roast
+    retrieved: 2026-11-15
+  - id: odisha-naturals
+    name: Odisha Naturals (Light Roast)
+    forms:
+      - whole_bean
+      - ground
+    roast_level: light
+    process: natural
+    origins:
+      - country: IN
+        region: Koraput, Odisha
+        producer: Punjisil Tribal Farm
+    varieties:
+      - sln-9
+      - chandragiri
+    altitude_m:
+      min: 900
+      max: 900
+    flavor_notes:
+      - orange
+      - citrus-fruit
+      - raspberry
+      - other-fruit
+    roaster_notes: Sweet mandarin and citrus lead the cup, followed by raspberry and plum.
+    url: https://greysoul.coffee/products/odisha-naturals-light-med
+    retrieved: 2026-11-15
+cafes:
+  - id: pune-noshery
+    name: Pune Noshery
+    city: Pune
+    country: IN
+    address: Lane 6, Koregaon Park, Pune 411001
+  - id: bandra-noshery
+    name: Bandra Noshery
+    city: Mumbai
+    country: IN

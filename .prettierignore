@@ -1,0 +1,8 @@
+node_modules
+dist
+package-lock.json
+apps/mobile/assets/data
+apps/mobile/.expo
+CHANGELOG.md
+DATA_LICENSE
+apps/mobile

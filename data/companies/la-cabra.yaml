@@ -1,0 +1,102 @@
+id: la-cabra
+name: La Cabra
+country: DK
+website: https://lacabra.com
+has_cafes: true
+cafe_count_approx: 15
+verified: true
+sources:
+  - url: https://lacabra.com/pages/locations
+    retrieved: 2026-11-15
+    note: Lists 15 cafes and bakeries in Denmark, the United States, Oman, Thailand, Spain and Mexico.
+  - url: https://lacabra.com/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: concepcion
+    name: Concepción
+    forms:
+      - whole_bean
+    process: washed
+    varieties:
+      - pacamara
+    flavor_notes:
+      - floral
+      - other-fruit
+    roaster_notes: Floral notes, stone fruit, melon and an intense finish.
+    url: https://lacabra.com/products/concepcion
+    retrieved: 2026-11-15
+  - id: altos-geisha
+    name: Altos Geisha
+    forms:
+      - whole_bean
+    process: honey
+    origins:
+      - country: CR
+        region: Tarrazú
+        producer: Altos del Abejonal
+    varieties:
+      - gesha
+    roaster_notes: Red honey process.
+    url: https://lacabra.com/products/altos-geisha
+    retrieved: 2026-11-15
+  - id: altos-natural
+    name: Altos Natural
+    forms:
+      - whole_bean
+    process: natural
+    varieties:
+      - catuai
+    flavor_notes:
+      - cherry
+      - dark-chocolate
+      - caramelized
+    roaster_notes: Cherry, dark chocolate and salted caramel.
+    url: https://lacabra.com/products/altos-natural
+    retrieved: 2026-11-15
+  - id: la-divina
+    name: La Divina
+    forms:
+      - whole_bean
+    process: anaerobic-natural
+    origins:
+      - country: SV
+        producer: Roberto Ulloa
+    varieties:
+      - gesha
+    flavor_notes:
+      - apple
+      - chocolate
+    roaster_notes: Green apple and chocolate.
+    url: https://lacabra.com/products/la-divina
+    retrieved: 2026-11-15
+cafes:
+  - id: graven
+    name: Graven
+    city: Aarhus
+    country: DK
+    address: Graven 20, 8000 Aarhus C
+  - id: montergade
+    name: Møntergade
+    city: Copenhagen
+    country: DK
+    address: Møntergade 3A, 1116 Copenhagen K
+  - id: soho
+    name: SoHo
+    city: New York
+    country: US
+    address: 284 Lafayette St, 10012 New York
+  - id: shatti
+    name: Shatti
+    city: Muscat
+    country: OM
+    address: Hotel shop no. 004, Way 2827, Shatti al Qurum
+  - id: talad-noi
+    name: Talad Noi
+    city: Bangkok
+    country: TH
+    address: 813 Charoen Krung Rd, Talad Noi, Samphanthawong
+  - id: chueca
+    name: Chueca (Bakery)
+    city: Madrid
+    country: ES
+    address: C. de las Infantas, 25, 28004 Madrid

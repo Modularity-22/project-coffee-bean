@@ -1,0 +1,101 @@
+id: half-light-coffee
+name: Half Light Coffee Roasters
+country: IN
+city: Jaipur
+website: https://halflightcoffee.com
+has_cafes: true
+cafe_count_approx: 3
+verified: true
+sources:
+  - url: https://halflightcoffee.com/pages/locations
+    retrieved: 2026-11-15
+    note: Three coffee shops and the roastery address.
+  - url: https://halflightcoffee.com/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: salawara-red-honey
+    name: Salawara Red Honey - 1 KG
+    forms:
+      - whole_bean
+      - ground
+    roast_level: light
+    process: honey
+    origins:
+      - country: IN
+        region: Belur, Karnataka
+        producer: Salawara Estate
+    varieties:
+      - chandragiri
+    altitude_m:
+      min: 1035
+      max: 1125
+    flavor_notes:
+      - caramelized
+      - pomegranate
+      - cocoa
+    roaster_notes: Caramel, Pomegranate, Cacao. Anaerobic fermented red honey, 72 hours.
+    url: https://halflightcoffee.com/products/salawara-red-honey-1-kg
+    retrieved: 2026-11-15
+  - id: salawara-nitro
+    name: Salawara Nitro - 1 KG
+    forms:
+      - whole_bean
+      - ground
+    roast_level: light
+    process: honey
+    origins:
+      - country: IN
+        region: Belur, Karnataka
+        producer: Salawara Estate
+    varieties:
+      - sln-795
+    altitude_m:
+      min: 1035
+      max: 1125
+    flavor_notes:
+      - molasses
+      - malt
+      - black-tea
+    roaster_notes: Molasses, Malt, Black Tea. Nitro honey sun dried, 48 hours.
+    url: https://halflightcoffee.com/products/salawara-nitro-1-kg
+    retrieved: 2026-11-15
+  - id: salawara-double
+    name: Salawara Double - 1 KG
+    forms:
+      - whole_bean
+      - ground
+    roast_level: light
+    process: natural
+    origins:
+      - country: IN
+        region: Belur, Karnataka
+        producer: Salawara Estate
+    varieties:
+      - kent
+      - sln-795
+    altitude_m:
+      min: 1035
+      max: 1125
+    flavor_notes:
+      - other-fruit
+      - strawberry
+      - orange
+    roaster_notes: Muskmelon, Strawberry Marmalade. Culture double fermented natural, 72 hours.
+    url: https://halflightcoffee.com/products/salawara-double-1-kg
+    retrieved: 2026-11-15
+cafes:
+  - id: c-scheme
+    name: C-Scheme
+    city: Jaipur
+    country: IN
+    address: F-31, Azad Marg, C-Scheme, Jaipur 302001
+  - id: malviya-nagar
+    name: Malviya Nagar
+    city: Jaipur
+    country: IN
+    address: Plot No. F-1, Lal Bahadur Nagar SL Marg, Jawahar Lal Nehru Marg, Jaipur 302018
+  - id: aipl-joy-gallery
+    name: AIPL Joy Gallery
+    city: Gurugram
+    country: IN
+    address: Ground Floor, AIPL Joy Gallery, Badshahpur, Sector 66, Gurugram 122101

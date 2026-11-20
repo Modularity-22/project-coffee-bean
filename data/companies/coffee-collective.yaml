@@ -1,0 +1,82 @@
+id: coffee-collective
+name: Coffee Collective
+country: DK
+website: https://coffeecollective.dk
+has_cafes: true
+cafe_count_approx: 8
+verified: true
+sources:
+  - url: https://coffeecollective.dk
+    retrieved: 2026-11-15
+    note: Lists eight coffee shops plus Collective Bakery. Only shops whose city is stated on the page are listed below.
+  - url: https://coffeecollective.dk/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: albuls
+    name: Albuls
+    forms:
+      - whole_bean
+    process: natural
+    origins:
+      - country: ET
+    flavor_notes:
+      - apple
+      - citrus-fruit
+      - chocolate
+    roaster_notes: Notes of dried apple, bergamot and milk chocolate.
+    url: https://coffeecollective.dk/products/albuls-3kg
+    retrieved: 2026-11-15
+  - id: espresso-blend
+    name: Espresso Blend
+    forms:
+      - whole_bean
+    blend: true
+    flavor_notes:
+      - caramelized
+      - other-fruit
+      - chocolate
+    roaster_notes: Notes of caramel, stonefruit and chocolate.
+    url: https://coffeecollective.dk/products/espresso-blend-3kg
+    retrieved: 2026-11-15
+  - id: julekaffe
+    name: Julekaffe
+    forms:
+      - whole_bean
+    process: washed
+    origins:
+      - country: GT
+    flavor_notes:
+      - sweet-aromatics
+      - cocoa
+      - other-fruit
+    roaster_notes: Notes of nougat, cocoa nibs, and plum.
+    url: https://coffeecollective.dk/products/julekaffe-2026-250g
+    availability: seasonal
+    retrieved: 2026-11-15
+  - id: la-lima-gesha
+    name: La Lima Gesha
+    forms:
+      - whole_bean
+    process: washed
+    origins:
+      - country: PE
+    varieties:
+      - gesha
+    flavor_notes:
+      - floral
+      - peach
+      - citrus-fruit
+    roaster_notes: Floral notes of ripe peach and candied citrus.
+    url: https://coffeecollective.dk/products/la-lima-gesha-200g
+    retrieved: 2026-11-15
+cafes:
+  - id: guldsmedgade
+    name: Guldsmedgade
+    city: Aarhus
+    country: DK
+    url: https://coffeecollective.dk/pages/coffee-shop/guldsmedgade
+  - id: godthabsvej
+    name: Godthåbsvej
+    city: Frederiksberg
+    country: DK
+    url: https://coffeecollective.dk/pages/coffee-shop/godthabsvej

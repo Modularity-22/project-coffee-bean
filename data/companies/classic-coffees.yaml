@@ -1,0 +1,145 @@
+id: classic-coffees
+name: Classic Coffees
+country: IN
+website: https://classiccoffees.in
+verified: false
+sources:
+  - url: https://classiccoffees.in
+    retrieved: 2026-11-19
+    note: Collected automatically from the shop's Shopify product feed; not yet checked by a person.
+beans:
+  - id: classic-yellow-honey
+    name: Classic Yellow Honey
+    forms:
+      - whole_bean
+      - ground
+    url: https://classiccoffees.in/products/classic-yellow-honey
+    retrieved: 2026-11-19
+    roast_level: medium-light
+    process: honey
+    flavor_notes:
+      - cocoa
+      - hazelnut
+      - floral
+    roaster_notes: 'Cocoa, Toasted Hazelnut & Floral Roast Profile : Light to Medium'
+  - id: classic-wine-aged-arabica
+    name: Classic Wine Barrel-aged Arabica
+    forms:
+      - whole_bean
+      - ground
+    url: https://classiccoffees.in/products/classic-wine-aged-arabica
+    retrieved: 2026-11-19
+    roast_level: medium-light
+    process: experimental
+    flavor_notes:
+      - orange
+      - blackberry
+      - apple
+      - winey
+    roaster_notes: Sweet Orange, Blackberry Jam and Wood Apple Enjoy the fragrance of Wine with the taste of coffee
+  - id: black-honey
+    name: Black Honey
+    forms:
+      - whole_bean
+      - ground
+    url: https://classiccoffees.in/products/black-honey
+    retrieved: 2026-11-19
+    roast_level: medium-light
+    process: honey
+    flavor_notes:
+      - chocolate
+      - brown-sugar
+      - orange
+    roaster_notes: 'Milk Chocolate, Sugarcane & Tangerine Roast Profile : Light to Medium'
+  - id: classic-two-indies-rum-barrel-aged-coffee
+    name: Classic Two Indies Rum Barrel-aged Coffee
+    forms:
+      - whole_bean
+      - ground
+    url: https://classiccoffees.in/products/classic-two-indies-rum-barrel-aged-coffee
+    retrieved: 2026-11-19
+    roast_level: medium-light
+    process: experimental
+    flavor_notes:
+      - raisin
+      - dark-chocolate
+      - floral
+    roaster_notes: Sweet Raisins , Dark Chocolate & Orange Blossoms
+  - id: red-honey
+    name: Red Honey
+    forms:
+      - whole_bean
+      - ground
+    url: https://classiccoffees.in/products/red-honey
+    retrieved: 2026-11-19
+    process: honey
+    flavor_notes:
+      - berry
+      - cherry
+      - brown-sugar
+    roaster_notes: Mulberry, Dark Berries, Cherry, Jaggery Sweetness
+  - id: banana-black-honey
+    name: Classic Banana Black Honey
+    forms:
+      - whole_bean
+      - ground
+    url: https://classiccoffees.in/products/banana-black-honey
+    retrieved: 2026-11-19
+    roast_level: medium-light
+    process: honey
+    flavor_notes:
+      - overripe
+      - other-fruit
+      - alcohol-fermented
+    roaster_notes: 'Overripe Banana, Mango, Amarula & Brandy Roast Profile : Light to Medium'
+  - id: grappa
+    name: Grappa
+    forms:
+      - whole_bean
+      - ground
+    url: https://classiccoffees.in/products/grappa
+    retrieved: 2026-11-19
+    flavor_notes:
+      - other-fruit
+      - raisin
+      - dried-fruit
+      - citrus-fruit
+      - alcohol-fermented
+    roaster_notes: Jack Fruit (Biluva), Raisins, Fig, Sweet Citron & Brandy
+  - id: sugarcane-maceration
+    name: Sugarcane Maceration
+    forms:
+      - whole_bean
+      - ground
+    url: https://classiccoffees.in/products/sugarcane-maceration
+    retrieved: 2026-11-19
+    roast_level: medium-light
+    flavor_notes:
+      - cocoa
+      - brown-sugar
+      - caramelized
+    roaster_notes: 'mild cocoa, sugarcane & caramel Roast Profile : Light to Medium'
+  - id: classic-afterhours-roast-ground
+    name: Classic Afterhours
+    forms:
+      - whole_bean
+      - ground
+    url: https://classiccoffees.in/products/classic-afterhours-roast-ground
+    retrieved: 2026-11-19
+    roast_level: medium
+    blend: true
+    flavor_notes:
+      - spices
+      - citrus-fruit
+    roaster_notes: hints of spice and pleasant citrus to create a smooth body that winds you down
+  - id: vintage-24-speciality-arabica
+    name: Vintage 24 - Speciality Arabica
+    forms:
+      - whole_bean
+      - ground
+    url: https://classiccoffees.in/products/vintage-24-speciality-arabica
+    retrieved: 2026-11-19
+    roast_level: medium-light
+    flavor_notes:
+      - hazelnut
+    roaster_notes: 'HAZELNUT Roast Profile : Light to Medium'

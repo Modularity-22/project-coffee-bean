@@ -1,0 +1,33 @@
+name: Release dataset
+
+# Push a tag like data-2026.11.15 to publish the built dataset as a GitHub release.
+on:
+  push:
+    tags: ['data-*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - name: Package
+        run: |
+          cd dist
+          zip -r "../project-coffee-bean-${GITHUB_REF_NAME}.zip" .
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" \
+            "project-coffee-bean-${GITHUB_REF_NAME}.zip" dist/coffee.sqlite \
+            --title "Dataset ${GITHUB_REF_NAME#data-}" --generate-notes

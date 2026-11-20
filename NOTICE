@@ -1,0 +1,20 @@
+Project Coffee Bean
+Copyright (c) 2026 Project Coffee Bean contributors
+
+Source code is licensed under the MIT License (see LICENSE).
+
+The database under data/, and files generated from it, are made available
+under the Open Database License 1.0 (see DATA_LICENSE). When you use the data,
+attribute it as: "Project Coffee Bean contributors".
+
+Tasting notes use the vocabulary of the Coffee Taster's Flavor Wheel (Specialty
+Coffee Association and World Coffee Research, 2016), as published in Spencer et
+al., Journal of Food Science 81(12), 2016. The wheel artwork is not reproduced.
+
+Facts in the database were collected from the public websites of the companies
+listed; each entry records its source. Company names, product names and
+trademarks belong to their respective owners and are used for identification
+only. Listing a company does not imply endorsement by or of that company.
+
+The Project Coffee Bean name and logo (assets/brand/) are not covered by the
+licences above.

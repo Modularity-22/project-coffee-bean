@@ -1,0 +1,69 @@
+id: maverick-and-farmer
+name: Maverick & Farmer Coffee
+country: IN
+city: Bengaluru
+website: https://www.maverickandfarmer.com
+description: Coffee from the company's own third-generation estate in Coorg, roasted to order in Bengaluru.
+has_cafes: true
+verified: true
+sources:
+  - url: https://www.maverickandfarmer.com/pages/our-cafes
+    retrieved: 2026-11-15
+    note: Cafe addresses. The page says every cafe pours the coffee the company grows and roasts.
+  - url: https://www.maverickandfarmer.com/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: frozen-not-the-movie
+    name: Frozen (Not The Movie)
+    forms:
+      - whole_bean
+      - ground
+    roast_level: medium
+    process: experimental
+    origins:
+      - country: IN
+        region: Pollibetta, Coorg
+    flavor_notes:
+      - orange
+      - peach
+    roaster_notes: Orange and ripe peach. Cherries are frozen for 48 hours (cryo maceration), then washed.
+    url: https://www.maverickandfarmer.com/products/frozen-not-the-movie
+    retrieved: 2026-11-15
+  - id: melkodige-estate
+    name: Melkodige estate - single origin Arabica
+    forms:
+      - whole_bean
+      - ground
+    origins:
+      - country: IN
+        region: Chikmagalur, Karnataka
+        producer: Melkodige Estate
+    altitude_m:
+      min: 1219
+      max: 1219
+    roaster_notes: Sweet and full of character. Altitude published as 4,000 feet.
+    url: https://www.maverickandfarmer.com/products/melkodige-estate-single-origin-arabica
+    retrieved: 2026-11-15
+    flavor_notes:
+      - overall-sweet
+cafes:
+  - id: koramangala
+    name: Koramangala
+    city: Bengaluru
+    country: IN
+    address: 163, 15th Main Road, 4th Block, Koramangala, Bengaluru 560034
+  - id: kothanur
+    name: Kothanur
+    city: Bengaluru
+    country: IN
+    address: 141, Kothanur Main Road, Kothanur, Bengaluru 560077
+  - id: cunningham-road
+    name: Cunningham Road
+    city: Bengaluru
+    country: IN
+    address: 37, Cunningham Rd, Vasanth Nagar, Bengaluru 560001
+  - id: panjim
+    name: Panjim
+    city: Panaji
+    country: IN
+    address: 54, Rua, St. Tome House, Altinho, Panaji, Goa 403001

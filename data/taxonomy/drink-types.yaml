@@ -1,0 +1,118 @@
+# Canonical drink types. A company's menu item points at one of these, and a
+# bean's `brew_methods` lists the ones its roaster recommends.
+- id: espresso
+  name: Espresso
+  category: espresso
+  description: 'A short, concentrated shot brewed under pressure.'
+- id: ristretto
+  name: Ristretto
+  category: espresso
+  description: 'A shorter, more concentrated espresso.'
+- id: lungo
+  name: Lungo
+  category: espresso
+  description: 'An espresso pulled with more water.'
+- id: americano
+  name: Americano
+  category: espresso
+  description: 'Espresso diluted with hot water.'
+- id: long-black
+  name: Long black
+  category: espresso
+  description: 'Espresso poured over hot water.'
+- id: macchiato
+  name: Macchiato
+  category: espresso-milk
+  description: 'Espresso marked with a little milk foam.'
+- id: cortado
+  name: Cortado
+  category: espresso-milk
+  description: 'Espresso cut with roughly equal steamed milk.'
+- id: piccolo
+  name: Piccolo
+  category: espresso-milk
+  description: 'A ristretto topped with steamed milk in a small glass.'
+- id: gibraltar
+  name: Gibraltar
+  category: espresso-milk
+  description: 'A double espresso with a little steamed milk, served in a rocks glass.'
+- id: flat-white
+  name: Flat white
+  category: espresso-milk
+  description: 'Espresso with thinly textured steamed milk.'
+- id: cappuccino
+  name: Cappuccino
+  category: espresso-milk
+  description: 'Espresso with steamed milk and a thick foam layer.'
+- id: latte
+  name: Latte
+  category: espresso-milk
+  description: 'Espresso with plenty of steamed milk and light foam.'
+- id: mocha
+  name: Mocha
+  category: espresso-milk
+  description: 'Espresso with chocolate and steamed milk.'
+- id: affogato
+  name: Affogato
+  category: espresso
+  description: 'Espresso poured over ice cream.'
+- id: moka-pot
+  name: Moka pot
+  category: other
+  description: 'Strong coffee brewed on the stove by steam pressure in a moka pot.'
+- id: pour-over
+  name: Pour-over
+  category: filter
+  description: 'Hand-poured filter coffee (V60, Kalita, Chemex and similar).'
+- id: batch-brew
+  name: Batch brew
+  category: filter
+  description: 'Filter coffee brewed in volume on a machine; also sold as drip coffee.'
+- id: aeropress
+  name: AeroPress
+  category: filter
+  description: 'Coffee brewed in an AeroPress.'
+- id: french-press
+  name: French press
+  category: filter
+  description: 'Immersion-brewed coffee, pressed through a metal filter.'
+- id: siphon
+  name: Siphon
+  category: filter
+  description: 'Vacuum-pot brewed coffee.'
+- id: south-indian-filter
+  name: South Indian filter coffee
+  category: filter
+  description: 'Decoction from a metal filter, served with hot milk.'
+- id: turkish
+  name: Turkish coffee
+  category: other
+  description: 'Very finely ground coffee simmered in a cezve.'
+- id: cold-brew
+  name: Cold brew
+  category: cold
+  description: 'Coffee steeped in cold water for many hours.'
+- id: nitro-cold-brew
+  name: Nitro cold brew
+  category: cold
+  description: 'Cold brew infused with nitrogen and served on tap.'
+- id: iced-filter
+  name: Iced filter coffee
+  category: cold
+  description: 'Filter coffee brewed hot and served over ice.'
+- id: iced-americano
+  name: Iced americano
+  category: cold
+  description: 'Espresso and cold water over ice.'
+- id: iced-latte
+  name: Iced latte
+  category: cold
+  description: 'Espresso and cold milk over ice.'
+- id: espresso-tonic
+  name: Espresso tonic
+  category: cold
+  description: 'Espresso over tonic water and ice.'
+- id: signature
+  name: Signature drink
+  category: other
+  description: 'A house creation that does not fit a standard type.'

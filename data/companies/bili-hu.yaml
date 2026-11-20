@@ -1,0 +1,49 @@
+id: bili-hu
+name: Bili Hu
+country: IN
+city: Noida
+website: https://bilihu.in
+has_cafes: false
+verified: true
+sources:
+  - url: https://bilihu.in/pages/about
+    retrieved: 2026-11-15
+    note: Address in Noida. The site links a "Coffee Shop" section that was not read, so no cafes are recorded.
+  - url: https://bilihu.in/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: aghora-estate
+    name: Aghora Estate
+    forms: &a1
+      - whole_bean
+      - ground
+    roast_level: medium
+    process: washed
+    origins:
+      - country: IN
+        region: Chikmagalur, Karnataka
+        producer: Aghora Estate
+    url: https://bilihu.in/products/aghora-estate-1
+    retrieved: 2026-11-15
+  - id: krishna-estate
+    name: Krishna Estate
+    forms: *a1
+    roast_level: medium
+    process: washed
+    origins:
+      - country: IN
+        region: Chikmagalur, Karnataka
+        producer: Krishna Estate
+    url: https://bilihu.in/products/krishna-estate
+    retrieved: 2026-11-15
+  - id: whiskey-barrel-aged
+    name: Whiskey Barrel Aged Coffee
+    forms: *a1
+    roast_level: medium
+    process: washed
+    origins:
+      - country: IN
+        region: Chikmagalur, Karnataka
+    roaster_notes: Washed coffee aged in a whiskey barrel.
+    url: https://bilihu.in/products/whiskey-barrel-aged-coffee
+    retrieved: 2026-11-15

@@ -1,0 +1,176 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://projectcoffeebean.org/schema/company.schema.json",
+  "title": "Company data file",
+  "description": "One file per coffee company in data/companies/<id>.yaml.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "country", "website", "sources", "beans"],
+  "properties": {
+    "id": { "$ref": "#/definitions/slug" },
+    "name": { "type": "string", "minLength": 1 },
+    "country": { "$ref": "#/definitions/country" },
+    "city": { "type": "string" },
+    "founded": { "type": "integer", "minimum": 1600, "maximum": 2100 },
+    "website": { "$ref": "#/definitions/url" },
+    "description": { "type": "string", "maxLength": 600 },
+    "has_cafes": { "type": "boolean" },
+    "cafe_count_approx": { "type": "integer", "minimum": 0 },
+    "status": { "enum": ["active", "closed"] },
+    "verified": {
+      "type": "boolean",
+      "description": "true when the facts were checked against the listed sources."
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["url", "retrieved"],
+        "properties": {
+          "url": { "$ref": "#/definitions/url" },
+          "retrieved": { "$ref": "#/definitions/date" },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "beans": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name", "forms", "url", "retrieved"],
+        "properties": {
+          "id": { "$ref": "#/definitions/slug" },
+          "name": { "type": "string", "minLength": 1 },
+          "forms": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": { "enum": ["whole_bean", "ground"] }
+          },
+          "roast_level": { "$ref": "#/definitions/slug" },
+          "process": { "$ref": "#/definitions/slug" },
+          "blend": { "type": "boolean" },
+          "decaf": { "type": "boolean" },
+          "origins": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["country"],
+              "properties": {
+                "country": { "$ref": "#/definitions/country" },
+                "region": { "type": "string" },
+                "producer": { "type": "string" },
+                "percent": { "type": "integer", "minimum": 1, "maximum": 100 }
+              }
+            }
+          },
+          "varieties": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": { "$ref": "#/definitions/slug" }
+          },
+          "altitude_m": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "min": { "type": "integer", "minimum": 0, "maximum": 3500 },
+              "max": { "type": "integer", "minimum": 0, "maximum": 3500 }
+            }
+          },
+          "flavor_notes": { "$ref": "#/definitions/flavor_notes" },
+          "roaster_notes": { "type": "string", "maxLength": 300 },
+          "profile": { "$ref": "#/definitions/profile" },
+          "serve": {
+            "enum": ["black", "milk", "either"],
+            "description": "How the roaster suggests drinking it."
+          },
+          "brew_methods": {
+            "type": "array",
+            "uniqueItems": true,
+            "description": "Drink type ids the roaster recommends, e.g. espresso, moka-pot, pour-over.",
+            "items": { "$ref": "#/definitions/slug" }
+          },
+          "url": { "$ref": "#/definitions/url" },
+          "availability": { "enum": ["current", "seasonal", "discontinued"] },
+          "retrieved": { "$ref": "#/definitions/date" }
+        }
+      }
+    },
+    "cafes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name", "city", "country"],
+        "properties": {
+          "id": { "$ref": "#/definitions/slug" },
+          "name": { "type": "string", "minLength": 1 },
+          "city": { "type": "string", "minLength": 1 },
+          "country": { "$ref": "#/definitions/country" },
+          "address": { "type": "string" },
+          "latitude": { "type": "number", "minimum": -90, "maximum": 90 },
+          "longitude": { "type": "number", "minimum": -180, "maximum": 180 },
+          "url": { "$ref": "#/definitions/url" }
+        }
+      }
+    },
+    "menu": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "drink", "name", "source", "retrieved"],
+        "properties": {
+          "id": { "$ref": "#/definitions/slug" },
+          "drink": { "$ref": "#/definitions/slug" },
+          "name": { "type": "string", "minLength": 1 },
+          "cafe": { "$ref": "#/definitions/slug" },
+          "notes": { "type": "string", "maxLength": 300 },
+          "flavor_notes": { "$ref": "#/definitions/flavor_notes" },
+          "profile": { "$ref": "#/definitions/profile" },
+          "beans": {
+            "type": "array",
+            "uniqueItems": true,
+            "description": "Bean ids from this file. Leave out when the company does not publish it.",
+            "items": { "$ref": "#/definitions/slug" }
+          },
+          "source": { "$ref": "#/definitions/url" },
+          "retrieved": { "$ref": "#/definitions/date" }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "country": { "type": "string", "pattern": "^[A-Z]{2}$" },
+    "url": { "type": "string", "pattern": "^https?://\\S+$" },
+    "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "score": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 4,
+      "description": "1 low, 2 medium, 3 medium-high, 4 high. Only as published by the roaster."
+    },
+    "flavor_notes": {
+      "type": "array",
+      "uniqueItems": true,
+      "maxItems": 8,
+      "description": "Ids from data/taxonomy/flavor-wheel.yaml, in the order the roaster lists them.",
+      "items": { "$ref": "#/definitions/slug" }
+    },
+    "profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "sweetness": { "$ref": "#/definitions/score" },
+        "acidity": { "$ref": "#/definitions/score" },
+        "body": { "$ref": "#/definitions/score" },
+        "bitterness": { "$ref": "#/definitions/score" }
+      }
+    }
+  }
+}

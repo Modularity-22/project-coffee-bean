@@ -1,0 +1,51 @@
+id: cothas-coffee
+name: Cothas Coffee
+country: IN
+founded: 1949
+website: https://cothas.com
+has_cafes: false
+verified: true
+sources:
+  - url: https://cothas.com/pages/about-us
+    retrieved: 2026-11-15
+    note: Founded 1949; reports 28 retail stores, including one at Bangalore International Airport. The page does not say whether the stores serve drinks, so no cafes are recorded.
+  - url: https://cothas.com/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: coffees-of-india-chikmagalur
+    name: Coffees of India - Chikmagalur | Single Origin 100% Arabica (Freshly Ground Powder)
+    forms:
+      - ground
+    roast_level: medium
+    process: washed
+    origins:
+      - country: IN
+        region: Chikmagalur
+    altitude_m:
+      min: 610
+      max: 1067
+    flavor_notes:
+      - orange
+      - lemon
+      - overall-sweet
+      - sour
+    roaster_notes: Orange and lemon, sweet and sour. Altitude published as 2,000 to 3,500 feet.
+    url: https://cothas.com/products/cothas-coffees-of-india-chikmagalur-single-origin-100-arabica-where-zest-meets-caramel-powder
+    retrieved: 2026-11-15
+  - id: coffees-of-india-araku
+    name: Coffees of India - Araku | Single Origin 100% Arabica (Freshly Ground Powder)
+    forms:
+      - ground
+    roast_level: medium
+    origins:
+      - country: IN
+        region: Araku
+    altitude_m:
+      min: 884
+      max: 1219
+    flavor_notes:
+      - lime
+      - citrus-fruit
+    roaster_notes: Sweet lime and citrus zest. Altitude published as 2,900 to 4,000 feet.
+    url: https://cothas.com/products/cothas-coffees-of-india-araku-single-origin-100-arabica-where-vibrance-meets-smoothness-powder
+    retrieved: 2026-11-15

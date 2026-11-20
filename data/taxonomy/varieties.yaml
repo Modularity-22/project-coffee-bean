@@ -1,0 +1,35 @@
+- { id: bourbon, name: Bourbon, species: arabica }
+- { id: red-bourbon, name: Red Bourbon, species: arabica }
+- { id: yellow-bourbon, name: Yellow Bourbon, species: arabica }
+- { id: pink-bourbon, name: Pink Bourbon, species: arabica }
+- { id: typica, name: Typica, species: arabica }
+- { id: caturra, name: Caturra, species: arabica }
+- { id: catuai, name: Catuai, species: arabica }
+- { id: castillo, name: Castillo, species: arabica }
+- { id: colombia, name: Colombia, species: arabica }
+- { id: catimor, name: Catimor, species: arabica }
+- { id: chiroso, name: Chiroso, species: arabica }
+- { id: gesha, name: Gesha, species: arabica }
+- { id: sl28, name: SL28, species: arabica }
+- { id: sl34, name: SL34, species: arabica }
+- { id: ruiru-11, name: Ruiru 11, species: arabica }
+- { id: batian, name: Batian, species: arabica }
+- { id: ethiopian-landrace, name: Ethiopian landraces, species: arabica }
+- { id: jarc-74110, name: JARC 74110, species: arabica }
+- { id: jarc-74112, name: JARC 74112, species: arabica }
+- { id: pacamara, name: Pacamara, species: arabica }
+- { id: pacas, name: Pacas, species: arabica }
+- { id: maragogype, name: Maragogype, species: arabica }
+- { id: mundo-novo, name: Mundo Novo, species: arabica }
+- { id: sidra, name: Sidra, species: arabica }
+- { id: wush-wush, name: Wush Wush, species: arabica }
+- { id: parainema, name: Parainema, species: arabica }
+- { id: villa-sarchi, name: Villa Sarchi, species: arabica }
+- { id: marsellesa, name: Marsellesa, species: arabica }
+- { id: sln-795, name: SLN 795, species: arabica }
+- { id: sln-9, name: SLN 9, species: arabica }
+- { id: chandragiri, name: Chandragiri, species: arabica }
+- { id: kent, name: Kent, species: arabica }
+- { id: robusta, name: Robusta, species: robusta }
+- { id: liberica, name: Liberica, species: liberica }
+- { id: excelsa, name: Excelsa, species: excelsa }

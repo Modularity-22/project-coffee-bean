@@ -1,0 +1,162 @@
+id: ikkis-coffee
+name: Ikkis Coffee Roasters
+country: IN
+website: https://ikkis.coffee
+verified: false
+sources:
+  - url: https://ikkis.coffee
+    retrieved: 2026-11-19
+    note: Collected automatically from the shop's Shopify product feed; not yet checked by a person.
+beans:
+  - id: tropical-twist
+    name: TROPICAL TWIST
+    forms:
+      - whole_bean
+      - ground
+    url: https://ikkis.coffee/products/tropical-twist
+    retrieved: 2026-11-19
+    roast_level: light
+    process: natural
+    origins:
+      - country: IN
+        region: Orchardale Estate, Shevaroy Hills, Tamil Nadu
+        producer: Orchardale Estate
+    varieties:
+      - sln-795
+      - sln-9
+    altitude_m:
+      min: 1500
+      max: 1500
+    flavor_notes:
+      - black-tea
+      - other-fruit
+      - orange
+    roaster_notes: Earl Grey · Banana · Blood Orange Origin
+    brew_methods:
+      - aeropress
+      - pour-over
+  - id: deep-desire
+    name: DEEP DESIRE
+    forms:
+      - whole_bean
+      - ground
+    url: https://ikkis.coffee/products/deep-desire
+    retrieved: 2026-11-19
+    roast_level: medium-dark
+    process: washed
+    origins:
+      - country: IN
+        region: Badnekhan Estate, Chikmagalur, Karnataka
+        producer: Badnekhan Estate
+    varieties:
+      - sln-9
+    altitude_m:
+      min: 1460
+      max: 1460
+    flavor_notes:
+      - dark-chocolate
+      - other-fruit
+      - brown-sugar
+    roaster_notes: Dark Chocolate · Plum · Brown Sugar Origin
+    brew_methods:
+      - espresso
+      - moka-pot
+  - id: citrus-clock-medium-roast
+    name: CITRUS CLOAK
+    forms:
+      - whole_bean
+      - ground
+    url: https://ikkis.coffee/products/citrus-clock-medium-roast
+    retrieved: 2026-11-19
+    roast_level: medium
+    process: honey
+    origins:
+      - country: IN
+        region: Baarbara Estate, Chikmagalur, Karnataka
+        producer: Baarbara Estate
+    varieties:
+      - sln-795
+    altitude_m:
+      min: 1370
+      max: 1370
+    flavor_notes:
+      - citrus-fruit
+      - cocoa
+      - caramelized
+    roaster_notes: 'Citrus · Cocoa Nibs · Caramel Best For: Espresso, moka pot, pour-over The Pulse Series Bold'
+    brew_methods:
+      - espresso
+      - moka-pot
+  - id: orange-octave
+    name: ORANGE OCTAVE
+    forms:
+      - whole_bean
+      - ground
+    url: https://ikkis.coffee/products/orange-octave
+    retrieved: 2026-11-19
+    roast_level: medium
+    blend: true
+    origins:
+      - country: IN
+    flavor_notes:
+      - orange
+      - chocolate
+      - nutty
+    roaster_notes: 'Orange · Milk Chocolate · Cashew Best For: Espresso & milk drinks, moka pot, pour-over The Archive Series This coffee is part of our Archive'
+    serve: milk
+    brew_methods:
+      - espresso
+      - moka-pot
+  - id: morning-mist
+    name: MORNING MIST
+    forms:
+      - whole_bean
+      - ground
+    url: https://ikkis.coffee/products/morning-mist
+    retrieved: 2026-11-19
+    roast_level: light
+    process: anaerobic-natural
+    origins:
+      - country: IN
+        region: Ratnagiri Estate, Chikmagalur
+        producer: Ratnagiri Estate
+    varieties:
+      - catuai
+    altitude_m:
+      min: 1350
+      max: 1350
+    flavor_notes:
+      - jasmine
+      - other-fruit
+      - grape
+    roaster_notes: 'Jasmine · Apricot · Grapes Best For: Pour-over, AeroPress, iced brews The Drift Series Coffees that speak softly, finish slowly, and live in'
+    brew_methods:
+      - aeropress
+  - id: mulberry-melt
+    name: MULBERRY MELT
+    forms:
+      - whole_bean
+      - ground
+    url: https://ikkis.coffee/products/mulberry-melt
+    retrieved: 2026-11-19
+    roast_level: light
+    process: washed
+    origins:
+      - country: IN
+        region: Karadykan Estate, Chikmagalur, Karnataka
+        producer: Karadykan Estate
+    varieties:
+      - sln-9
+      - catuai
+    altitude_m:
+      min: 1350
+      max: 1350
+    flavor_notes:
+      - dried-fruit
+      - berry
+      - brown-sugar
+    roaster_notes: 'Figs · Mulberries · Jaggery Best For: Pour-over, AeroPress, iced brews, mindful mornings The Drift Series This coffee is part of our Drift S'
+    profile:
+      sweetness: 4
+    brew_methods:
+      - aeropress

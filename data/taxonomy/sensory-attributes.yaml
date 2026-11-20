@@ -1,0 +1,47 @@
+# The four attributes drawn on a coffee's flavour profile, and the scale they use.
+#
+# Values are recorded ONLY when the roaster or cafe publishes them on its own
+# site (for example "Acidity: Medium" or "Body: Medium-high"). They are never
+# estimated from roast level, process or tasting notes. A missing value is shown
+# as "not published".
+#
+# The names follow the SCA cupping and Coffee Value Assessment vocabulary
+# (acidity, sweetness, body/mouthfeel); bitterness is added because many
+# roasters publish it.
+attributes:
+  - { id: sweetness, name: Sweetness, description: 'How sugary the cup tastes.' }
+  - {
+      id: acidity,
+      name: Acidity,
+      description: 'Brightness or liveliness, like citrus or apple. Not sourness.',
+    }
+  - {
+      id: body,
+      name: Body,
+      description: 'The weight and texture of the coffee in the mouth, from tea-like to syrupy.',
+    }
+  - {
+      id: bitterness,
+      name: Bitterness,
+      description: 'Pleasant or harsh bitterness, mostly from roasting.',
+    }
+
+scale:
+  - { value: 1, name: Low }
+  - { value: 2, name: Medium }
+  - { value: 3, name: Medium-high }
+  - { value: 4, name: High }
+
+# Words on roasters' pages and the value they are recorded as. Anything else
+# (mild, bright, heavy) is too vague to convert and is left out.
+scale_words:
+  low: 1
+  light: 1
+  medium-low: 1
+  low-medium: 1
+  medium: 2
+  moderate: 2
+  medium-high: 3
+  high-medium: 3
+  high: 4
+  full: 4

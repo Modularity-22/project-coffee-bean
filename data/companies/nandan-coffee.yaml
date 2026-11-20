@@ -1,0 +1,68 @@
+id: nandan-coffee
+name: Nandan Coffee
+country: IN
+website: https://www.nandancoffee.com
+description: Estate-grown coffee from Nandanvan Estate in the Palani Hills of Kodaikanal.
+has_cafes: true
+cafe_count_approx: 6
+verified: true
+sources:
+  - url: https://www.nandancoffee.com/pages/all-cafes
+    retrieved: 2026-11-15
+    note: Six cafes in Bengaluru and Mumbai; several sit inside partner venues.
+  - url: https://www.nandancoffee.com/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: royale-light-roast
+    name: Royale Light Roast
+    forms:
+      - whole_bean
+      - ground
+    roast_level: light
+    varieties:
+      - sln-9
+    flavor_notes:
+      - citrus-fruit
+    roaster_notes: Light bodied and refreshing, with citrus-forward notes.
+    url: https://www.nandancoffee.com/products/nandan-royale-light-roast
+    retrieved: 2026-11-15
+  - id: royale-medium-roast
+    name: Royale Medium Roast
+    forms:
+      - whole_bean
+      - ground
+    roast_level: medium
+    varieties:
+      - sln-9
+    flavor_notes:
+      - caramelized
+      - chocolate
+      - molasses
+    roaster_notes: Notes of caramel, milk chocolate, and treacle.
+    url: https://www.nandancoffee.com/products/nandan-royale-medium-roast
+    retrieved: 2026-11-15
+  - id: royale-medium-dark-roast
+    name: Royale Medium-Dark Roast
+    forms:
+      - whole_bean
+      - ground
+    roast_level: medium-dark
+    varieties:
+      - sln-9
+    flavor_notes:
+      - caramelized
+      - dark-chocolate
+      - spices
+    roaster_notes: Caramelised sweetness, dark chocolate depth, and a gentle hint of spice.
+    url: https://www.nandancoffee.com/products/nandan-royale-medium-dark-roast
+    retrieved: 2026-11-15
+cafes:
+  - id: embassy-one
+    name: Nandan Coffee Flagship, Embassy One
+    city: Bengaluru
+    country: IN
+    address: Embassy One, 8 Bellary Rd, Ganganagar, Bengaluru 560032
+  - id: fort
+    name: Nandan Coffee Experience Centre, Fort
+    city: Mumbai
+    country: IN

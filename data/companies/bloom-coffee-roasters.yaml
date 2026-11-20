@@ -1,0 +1,81 @@
+id: bloom-coffee-roasters
+name: Bloom Coffee Roasters
+country: IN
+city: Panchkula
+website: https://bloomcoffeeroasters.in
+description: Small-batch roaster in Panchkula that also supplies cafes, hotels and brands across India.
+has_cafes: false
+verified: true
+sources:
+  - url: https://bloomcoffeeroasters.in
+    retrieved: 2026-11-15
+    note: Head office and roastery. No cafes of its own are mentioned.
+  - url: https://bloomcoffeeroasters.in/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: uchangi-estate-extended-naturals
+    name: Uchangi Estate - Extended Naturals - Hassan - Light Roast
+    forms:
+      - whole_bean
+    roast_level: light
+    process: anaerobic-natural
+    origins:
+      - country: IN
+        region: Hassan
+        producer: Uchangi Estate (Vaibhav Gupta)
+    varieties:
+      - sln-9
+    altitude_m:
+      min: 1000
+      max: 1000
+    flavor_notes:
+      - berry
+      - grapefruit
+      - honey
+    roaster_notes: Berries, Grapefruit and Honey.
+    url: https://bloomcoffeeroasters.in/products/uchangi-estate-extended
+    retrieved: 2026-11-15
+  - id: riverdale-white-rose
+    name: Riverdale White Rose - White Rose Honey - Shevaroy Hills - Light Roast
+    forms:
+      - whole_bean
+    roast_level: light
+    process: experimental
+    origins:
+      - country: IN
+        region: Shevaroy Hills
+        producer: Riverdale Estate (Prakash Balaraman)
+    varieties:
+      - sln-9
+    altitude_m:
+      min: 1450
+      max: 1450
+    flavor_notes:
+      - floral
+      - honey
+      - other-fruit
+    roaster_notes: Floral, Honey and Stone Fruit. Honey process fermented with rose petals.
+    url: https://bloomcoffeeroasters.in/products/riverdale-white-rose
+    retrieved: 2026-11-15
+  - id: riverdale-scarlet
+    name: Riverdale Scarlet - Scarlet Co-Ferment - Shevaroy Hills - Light Roast
+    forms:
+      - whole_bean
+    roast_level: light
+    process: experimental
+    origins:
+      - country: IN
+        region: Shevaroy Hills
+        producer: Riverdale Estate (Prakash Balaraman)
+    varieties:
+      - sln-9
+    altitude_m:
+      min: 1450
+      max: 1450
+    flavor_notes:
+      - citrus-fruit
+      - black-tea
+      - maple-syrup
+    roaster_notes: Citrus Fruit, Black Tea and Maple Syrup. Co-fermented with hibiscus.
+    url: https://bloomcoffeeroasters.in/products/riverdale-scarlet
+    retrieved: 2026-11-15

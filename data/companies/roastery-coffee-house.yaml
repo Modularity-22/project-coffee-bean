@@ -1,0 +1,188 @@
+id: roastery-coffee-house
+name: Roastery Coffee House
+country: IN
+website: https://roasterycoffee.co.in
+verified: false
+sources:
+  - url: https://roasterycoffee.co.in
+    retrieved: 2026-11-19
+    note: "Collected automatically from the shop's WooCommerce product feed; not yet checked by a person. The site has a page that may list cafes: https://roasterycoffee.co.in/cafe-locations/"
+beans:
+  - id: raxidi-lobo-estate
+    name: RAXIDI LOBO ESTATE
+    forms:
+      - whole_bean
+      - ground
+    url: https://roasterycoffee.co.in/product/raxidi-lobo-estate/
+    retrieved: 2026-11-19
+    roast_level: medium
+    process: natural
+    origins:
+      - country: IN
+        region: Coorg
+    altitude_m:
+      min: 950
+      max: 1000
+    flavor_notes:
+      - other-fruit
+      - grapefruit
+    roaster_notes: 'Dark Breeris, Plum, Grapefruit Location-Chikmangalur KA. Shipping: We offer shipping to most locations in India'
+    profile:
+      acidity: 2
+      bitterness: 1
+      body: 2
+  - id: c-t-estate
+    name: C & T Estate
+    forms:
+      - whole_bean
+      - ground
+    url: https://roasterycoffee.co.in/product/c-t-estate/
+    retrieved: 2026-11-19
+    roast_level: medium-light
+    process: anaerobic-washed
+    varieties:
+      - sln-795
+    altitude_m:
+      min: 900
+      max: 1200
+    flavor_notes:
+      - berry
+      - orange
+      - chocolate
+    roaster_notes: 'Mix Berries, Orange Zest, Milk Chocolate Location-Chikmangalur KA. Shipping: We offer shipping to most locations in India'
+    profile:
+      acidity: 2
+      bitterness: 1
+      body: 2
+  - id: mandalkhan-estate-2
+    name: Mandalkhan Estate
+    forms:
+      - whole_bean
+      - ground
+    url: https://roasterycoffee.co.in/product/mandalkhan-estate-2/
+    retrieved: 2026-11-19
+    roast_level: medium
+    process: washed
+    origins:
+      - country: IN
+        region: Chikmagalur
+        producer: Mandalkhan Estate
+    altitude_m:
+      min: 1340
+      max: 1400
+    flavor_notes:
+      - caramelized
+      - chocolate
+      - orange
+      - berry
+    roaster_notes: 'Caramel, Chocolate, Orange Berry Recommended for – Pour over, Aeropress , French press Shipping: We offer shipping to most locations in Indi'
+  - id: baarbara-estate
+    name: Baarbara Estate-HSD
+    forms:
+      - whole_bean
+      - ground
+    url: https://roasterycoffee.co.in/product/baarbara-estate/
+    retrieved: 2026-11-19
+    roast_level: medium
+    process: honey
+    origins:
+      - country: IN
+        region: Chikmagalur
+        producer: Baarbara Estate
+    altitude_m:
+      min: 1370
+      max: 1525
+    flavor_notes:
+      - lime
+      - orange
+      - cocoa
+    roaster_notes: 'SWEET LIME ,ORANGE, CACAO Recommended for – Pour over, Aeropress , French press Shipping: We offer shipping to most locations in India'
+  - id: cold-coffee-blend
+    name: Cold Coffee Blend
+    forms:
+      - whole_bean
+      - ground
+    url: https://roasterycoffee.co.in/product/cold-coffee-blend/
+    retrieved: 2026-11-19
+    roast_level: medium
+    process: washed
+    blend: true
+    origins:
+      - country: IN
+        region: Chikmagalur
+    altitude_m:
+      min: 1000
+      max: 1300
+    flavor_notes:
+      - dark-chocolate
+      - caramelized
+      - nutty
+    roaster_notes: 'Dark Chocolate, Caramel, Nutty • Recommended for – black, milk and cold coffee at home Shipping: We offer shipping to most locations in Indi'
+  - id: baarbara-estate-pineapple
+    name: Baarbara Estate Pineapple
+    forms:
+      - whole_bean
+      - ground
+    url: https://roasterycoffee.co.in/product/baarbara-estate-pineapple/
+    retrieved: 2026-11-19
+    roast_level: medium
+    origins:
+      - country: IN
+        region: Chikmagalur Flavour - Pineapple, Dried Apricot, Honey
+        producer: Baarbara Estate
+    varieties:
+      - sln-795
+    profile:
+      acidity: 2
+      bitterness: 1
+      body: 2
+  - id: espresso-milk-blend
+    name: SUMMER CAPPUCCINO BLEND
+    forms:
+      - whole_bean
+      - ground
+    url: https://roasterycoffee.co.in/product/espresso-milk-blend/
+    retrieved: 2026-11-19
+    roast_level: medium
+    blend: true
+    origins:
+      - country: IN
+        region: Chikmagalur Roast Type - Espresso Roast
+    flavor_notes:
+      - chocolate
+      - cocoa
+      - brown-sugar
+    roaster_notes: 'Milk chocolate, Cocoa and Jaggery Recommended for - Espresso and French press milk coffee Shipping: We offer shipping to most locations in I'
+  - id: basan-khan-estate
+    name: Basan Khan Estate
+    forms:
+      - whole_bean
+      - ground
+    url: https://roasterycoffee.co.in/product/basan-khan-estate/
+    retrieved: 2026-11-19
+    roast_level: medium
+    process: washed
+    varieties:
+      - sln-795
+    altitude_m:
+      min: 1450
+      max: 1450
+    profile:
+      acidity: 2
+      bitterness: 1
+      body: 2
+  - id: monsoon-malabar
+    name: Monsoon Malabar
+    forms:
+      - whole_bean
+      - ground
+    url: https://roasterycoffee.co.in/product/monsoon-malabar/
+    retrieved: 2026-11-19
+    process: monsooned
+    flavor_notes:
+      - musty-earthy
+      - nutty
+      - spices
+    roaster_notes: 'Earthy, Nutty, Spices Recommended for - Pour over, Aeropress, French press How to Brew - The Brew Guide Free shipping across India Shipping:'
+    brew_methods:
+      - espresso

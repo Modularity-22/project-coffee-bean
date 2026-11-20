@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.cache/
+.expo/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+apps/mobile/ios/
+apps/mobile/android/
+apps/mobile/web-build/
+coverage/
+.claude/

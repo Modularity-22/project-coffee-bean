@@ -1,0 +1,101 @@
+id: onyx-coffee-lab
+name: Onyx Coffee Lab
+country: US
+city: Rogers
+website: https://onyxcoffeelab.com
+has_cafes: true
+verified: true
+sources:
+  - url: https://onyxcoffeelab.com/pages/locations
+    retrieved: 2026-11-15
+    note: Cafe list and headquarters. Cafe menus are linked as PDFs and were not read.
+  - url: https://onyxcoffeelab.com/collections/coffee
+    retrieved: 2026-11-15
+beans:
+  - id: monarch
+    name: Monarch
+    forms:
+      - whole_bean
+    blend: true
+    origins:
+      - country: CO
+      - country: ET
+    flavor_notes:
+      - dark-chocolate
+      - winey
+      - berry
+    roaster_notes: Dark chocolate and undertones of thick winey berries. Described as the roaster's most developed roast.
+    url: https://onyxcoffeelab.com/products/monarch
+    retrieved: 2026-11-15
+  - id: southern-weather
+    name: Southern Weather
+    forms:
+      - whole_bean
+    process: washed
+    blend: true
+    origins:
+      - country: CO
+      - country: ET
+      - country: HN
+    flavor_notes:
+      - chocolate
+    roaster_notes: Modern citric acidity flavors with full bodied chocolates.
+    url: https://onyxcoffeelab.com/products/southern-weather
+    retrieved: 2026-11-15
+  - id: tropical-weather
+    name: Tropical Weather
+    forms:
+      - whole_bean
+    process: mixed
+    blend: true
+    origins:
+      - country: ET
+    flavor_notes:
+      - berry
+      - other-fruit
+    roaster_notes: Notes of berries and plum.
+    url: https://onyxcoffeelab.com/products/tropical-weather
+    retrieved: 2026-11-15
+  - id: geometry
+    name: Geometry
+    forms:
+      - whole_bean
+    process: washed
+    blend: true
+    origins:
+      - country: ET
+      - country: CO
+    url: https://onyxcoffeelab.com/products/geometry
+    retrieved: 2026-11-15
+cafes:
+  - id: bonyx
+    name: B'onyx
+    city: Bentonville
+    country: US
+    url: https://onyxcoffeelab.com/pages/bentonville
+  - id: the-momentary
+    name: The Momentary
+    city: Bentonville
+    country: US
+    url: https://onyxcoffeelab.com/pages/the-momentary
+  - id: gregg-street
+    name: Gregg Street
+    city: Fayetteville
+    country: US
+    url: https://onyxcoffeelab.com/pages/fayetteville
+  - id: fayetteville-square
+    name: Fayetteville Square
+    city: Fayetteville
+    country: US
+    url: https://onyxcoffeelab.com/pages/fay-square
+  - id: rogers-hq
+    name: Rogers HQ
+    city: Rogers
+    country: US
+    address: 101 E Walnut Ave
+    url: https://onyxcoffeelab.com/pages/rogers
+  - id: springdale
+    name: Springdale
+    city: Springdale
+    country: US
+    url: https://onyxcoffeelab.com/pages/springdale

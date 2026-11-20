@@ -1,0 +1,144 @@
+id: the-barn
+name: THE BARN Coffee Roasters
+country: DE
+city: Berlin
+website: https://thebarn.de
+has_cafes: true
+cafe_count_approx: 11
+verified: true
+sources:
+  - url: https://thebarn.de/pages/locations
+    retrieved: 2026-11-15
+    note: Cafe list.
+  - url: https://thebarn.de/pages/signature-drinks
+    retrieved: 2026-11-15
+    note: Signature drink names. The page does not say which coffee each drink uses.
+  - url: https://thebarn.de/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: inku
+    name: Inku
+    forms:
+      - whole_bean
+    process: natural
+    origins:
+      - country: ET
+        region: Guji
+        producer: Lacho Torka washing station
+    flavor_notes:
+      - blueberry
+      - raspberry
+      - brown-sugar
+      - floral
+    roaster_notes: Blueberry and raspberry, brown sugar sweetness and elegant elderflower aromas.
+    url: https://thebarn.de/products/inku
+    retrieved: 2026-11-15
+  - id: santa-teresa
+    name: Santa Teresa
+    forms:
+      - whole_bean
+    process: honey
+    origins:
+      - country: CR
+        region: Tarrazú
+        producer: Santa Teresa 2000 (Roger Ureña)
+    varieties:
+      - catuai
+    url: https://thebarn.de/products/santa-teresa
+    retrieved: 2026-11-15
+  - id: los-pirineos-anaerobic
+    name: Los Pirineos Anaerobic
+    forms:
+      - whole_bean
+    process: experimental
+    origins:
+      - country: SV
+        producer: Los Pirineos (Diego Baraona)
+    varieties:
+      - pacamara
+    flavor_notes:
+      - other-fruit
+      - lemon
+      - sweet-aromatics
+      - chocolate
+    roaster_notes: Papaya, mango and lemon candy; rich nougat and chocolate ganache. Anaerobic process.
+    url: https://thebarn.de/products/los-pirineos-anaerobic
+    retrieved: 2026-11-15
+  - id: jairo-arcila-honey
+    name: Jairo Arcila Honey
+    forms:
+      - whole_bean
+    process: experimental
+    origins:
+      - country: CO
+        producer: Jairo Arcila
+    roaster_notes: Honey co-ferment, fermented with fresh cherries.
+    url: https://thebarn.de/products/jairo-arcila-honey
+    retrieved: 2026-11-15
+cafes:
+  - id: kranzler-eck
+    name: Kranzler Eck
+    city: Berlin
+    country: DE
+    url: https://thebarn.de/pages/locations/kranzler-eck
+  - id: glockenbachviertel
+    name: München Glockenbachviertel
+    city: Munich
+    country: DE
+  - id: fitzrovia
+    name: London Fitzrovia
+    city: London
+    country: GB
+  - id: al-khazzan-park
+    name: Al Khazzan Park
+    city: Dubai
+    country: AE
+  - id: la-rambla
+    name: La Rambla
+    city: Palma
+    country: ES
+  - id: sinsa
+    name: Sinsa
+    city: Seoul
+    country: KR
+menu:
+  - id: beetroot-flat-white
+    drink: flat-white
+    name: Beetroot Flat White
+    source: https://thebarn.de/pages/signature-drinks
+    retrieved: 2026-11-15
+  - id: jasmine-flat-white
+    drink: flat-white
+    name: Jasmine Flat White
+    source: https://thebarn.de/pages/signature-drinks
+    retrieved: 2026-11-15
+  - id: aeropress-goji
+    drink: aeropress
+    name: Aeropress Goji
+    source: https://thebarn.de/pages/signature-drinks
+    retrieved: 2026-11-15
+  - id: freddo-cappuccino
+    drink: signature
+    name: Freddo Cappuccino
+    source: https://thebarn.de/pages/signature-drinks
+    retrieved: 2026-11-15
+  - id: iced-shakerato
+    drink: signature
+    name: Iced Shakerato
+    source: https://thebarn.de/pages/signature-drinks
+    retrieved: 2026-11-15
+  - id: rosemary-cascara-tonic
+    drink: signature
+    name: Rosemary Cascara Tonic
+    source: https://thebarn.de/pages/signature-drinks
+    retrieved: 2026-11-15
+  - id: coffee-paloma
+    drink: signature
+    name: Coffee Paloma
+    source: https://thebarn.de/pages/signature-drinks
+    retrieved: 2026-11-15
+  - id: blood-orange-brew
+    drink: signature
+    name: Blood Orange Brew
+    source: https://thebarn.de/pages/signature-drinks
+    retrieved: 2026-11-15

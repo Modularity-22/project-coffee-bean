@@ -1,0 +1,45 @@
+{
+  "name": "project-coffee-bean",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An open database and knowledge graph of coffee roasters, their beans, flavour profiles, cafes and drinks.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "validate": "tsx tools/src/validate.ts",
+    "scrape": "tsx tools/src/scrape.ts",
+    "build:sql": "tsx tools/src/build-sql.ts",
+    "build:sqlite": "tsx tools/src/build-sqlite.ts",
+    "build:graph": "tsx tools/src/build-graph.ts",
+    "build:postgres": "tsx tools/src/build-postgres.ts",
+    "build": "npm run validate && npm run build:sql && npm run build:sqlite && npm run build:graph",
+    "stats": "tsx tools/src/stats.ts",
+    "test": "node --import tsx --test tools/test/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "pg": "^8.13.1",
+    "sql.js": "^1.12.0",
+    "yaml": "^2.6.1"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.2.15",
+    "@eslint/js": "^9.17.0",
+    "@types/node": "^22.10.2",
+    "@types/pg": "^8.11.10",
+    "@types/sql.js": "^1.4.9",
+    "eslint": "^9.17.0",
+    "prettier": "^3.4.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.1"
+  }
+}

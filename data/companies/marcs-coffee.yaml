@@ -1,0 +1,196 @@
+id: marcs-coffee
+name: Marc's Coffee
+country: IN
+website: https://marcscoffees.com
+verified: false
+sources:
+  - url: https://marcscoffees.com
+    retrieved: 2026-11-19
+    note: "Collected automatically from the shop's WooCommerce product feed; not yet checked by a person. The site has a page that may list cafes: https://coffeeideas.in/cafestore-menu/"
+beans:
+  - id: yemeni-jadi
+    name: Yemeni Jadi
+    forms:
+      - whole_bean
+      - ground
+    url: https://coffeeideas.in/product/our-coffees/yemeni-jadi/
+    retrieved: 2026-11-19
+    roast_level: medium-light
+    process: natural
+    origins:
+      - country: YE
+        region: East Haraz, Yemen
+        producer: Aqeeq Haraz Bunn
+    altitude_m:
+      min: 2300
+      max: 2300
+    flavor_notes:
+      - berry
+      - other-fruit
+      - floral
+      - sweet-aromatics
+    roaster_notes: Mixed Berries, Apricot, Tropical Fruits, Floral & Cola
+    brew_methods:
+      - pour-over
+  - id: salawara-estate
+    name: Salawara Reserve
+    forms:
+      - whole_bean
+      - ground
+    url: https://coffeeideas.in/product/our-coffees/marcs-signature-blends/light-roast/salawara-estate/
+    retrieved: 2026-11-19
+    roast_level: light
+    process: experimental
+    altitude_m:
+      min: 1000
+      max: 1000
+    flavor_notes:
+      - citrus-fruit
+      - hazelnut
+      - peach
+      - brown-sugar
+    roaster_notes: Citrus Fruit, Hazelnut, Peach, Jaggery
+    brew_methods:
+      - pour-over
+  - id: monsooned-malabar
+    name: Malabar Monsoon
+    forms:
+      - whole_bean
+      - ground
+    url: https://coffeeideas.in/product/our-coffees/marcs-single-estate-origin/light-roast-marcs-single-estate-orgin/monsooned-malabar/
+    retrieved: 2026-11-19
+    roast_level: light
+    process: monsooned
+    origins:
+      - country: IN
+        region: Coorg, Karnataka
+    altitude_m:
+      min: 762
+      max: 914
+    flavor_notes:
+      - malt
+      - nutty
+    roaster_notes: roasted malt and a nutty finish
+  - id: excelsa-coffee
+    name: Excelsa Coffee
+    forms:
+      - whole_bean
+      - ground
+    url: https://coffeeideas.in/product/our-coffees/excelsa-coffee/
+    retrieved: 2026-11-19
+    roast_level: light
+    process: honey
+    varieties:
+      - excelsa
+    altitude_m:
+      min: 1000
+      max: 1000
+    flavor_notes:
+      - other-fruit
+      - chocolate
+      - honey
+    roaster_notes: Tropical Fruit, Chocolate Fudge, Honey
+  - id: pranoys-pride
+    name: Pranoy's Pride
+    forms:
+      - whole_bean
+      - ground
+    url: https://coffeeideas.in/product/our-coffees/marcs-single-estate-origin/medium-roast-marcs-single-estate-orgin/pranoys-pride/
+    retrieved: 2026-11-19
+    roast_level: omni
+    process: natural
+    altitude_m:
+      min: 1200
+      max: 1200
+    flavor_notes:
+      - orange
+      - fruity
+      - other-fruit
+      - winey
+      - spices
+    roaster_notes: Orange Candy, Fruity, Litchi, Winey, Sweet Spices
+  - id: kaveri-espresso-blend
+    name: Kaveri Espresso
+    forms:
+      - whole_bean
+      - ground
+    url: https://coffeeideas.in/product/our-coffees/marcs-signature-blends/medium-roast/kaveri-espresso-blend/
+    retrieved: 2026-11-19
+    roast_level: medium
+    altitude_m:
+      min: 762
+      max: 1219
+    flavor_notes:
+      - nutty
+      - caramelized
+      - spices
+      - fruity
+      - cocoa
+    roaster_notes: roasted nuts, caramel, warm spices, red fruits, and cacao
+    brew_methods:
+      - espresso
+  - id: the-mahseer
+    name: Mahseer's Hope
+    forms:
+      - whole_bean
+      - ground
+    url: https://coffeeideas.in/product/our-coffees/marcs-single-estate-origin/light-roast-marcs-single-estate-orgin/the-mahseer/
+    retrieved: 2026-11-19
+    roast_level: omni
+    process: washed
+    altitude_m:
+      min: 1200
+      max: 1200
+    flavor_notes:
+      - other-fruit
+      - citrus-fruit
+      - chocolate
+    roaster_notes: Stone Fruits, Citrus, Chocolate
+  - id: genesis
+    name: Genesis
+    forms:
+      - whole_bean
+      - ground
+    url: https://coffeeideas.in/product/our-coffees/marcs-signature-blends/light-roast/genesis/
+    retrieved: 2026-11-19
+    roast_level: light
+    process: honey
+    altitude_m:
+      min: 1400
+      max: 1400
+    flavor_notes:
+      - floral
+      - peach
+    roaster_notes: Butter, Floral, Peach
+  - id: old-kent-estate
+    name: Old Kent Vienna
+    forms:
+      - whole_bean
+      - ground
+    url: https://coffeeideas.in/product/our-coffees/marcs-signature-blends/dark-roast/old-kent-estate/
+    retrieved: 2026-11-19
+    roast_level: dark
+    varieties:
+      - kent
+    altitude_m:
+      min: 1100
+      max: 1100
+    flavor_notes:
+      - dark-chocolate
+      - caramelized
+    roaster_notes: dark-chocolate and caramel emerge
+  - id: buma-devi
+    name: Buma Devi Breakfast
+    forms:
+      - whole_bean
+      - ground
+    url: https://coffeeideas.in/product/our-coffees/marcs-signature-blends/dark-roast/buma-devi/
+    retrieved: 2026-11-19
+    roast_level: dark
+    altitude_m:
+      min: 762
+      max: 914
+    flavor_notes:
+      - dark-chocolate
+      - caramelized
+    roaster_notes: dark-chocolate and caramel emerge

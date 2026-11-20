@@ -1,0 +1,4 @@
+# Reviews are requested from these people for changes to the matching paths.
+*                 @Modularity-22
+/data/            @Modularity-22
+/db/migrations/   @Modularity-22

@@ -1,0 +1,100 @@
+id: kaffa-cerrado
+name: Kaffa Cerrado
+country: IN
+city: New Delhi
+website: https://kaffacerrado.com
+description: Roaster stocking coffees from across the world.
+has_cafes: false
+verified: true
+sources:
+  - url: https://kaffacerrado.com
+    retrieved: 2026-11-15
+    note: Address in Okhla. No cafes of its own are mentioned on the pages read.
+  - url: https://kaffacerrado.com/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: colombia-sugarcane-decaf
+    name: Colombia Sugarcane Decaf
+    forms:
+      - whole_bean
+      - ground
+    roast_level: medium
+    process: decaf-sugarcane
+    decaf: true
+    origins:
+      - country: CO
+    varieties:
+      - castillo
+    altitude_m:
+      min: 1200
+      max: 1800
+    flavor_notes:
+      - chocolate
+      - brown-sugar
+      - caramelized
+      - berry
+    roaster_notes: Milk Chocolate, Sugarcane, Caramelised Berries.
+    url: https://kaffacerrado.com/products/colombia-sugarcane-decaf
+    retrieved: 2026-11-15
+  - id: peru-anaerobic-washed
+    name: Peru Anaerobic Washed
+    forms:
+      - whole_bean
+      - ground
+    roast_level: light
+    process: anaerobic-washed
+    origins:
+      - country: PE
+        region: Jaen
+    altitude_m:
+      min: 1780
+      max: 1780
+    flavor_notes:
+      - other-fruit
+      - apple
+      - caramelized
+    roaster_notes: Stone Fruit, Green Apple, Caramel.
+    url: https://kaffacerrado.com/products/washed-peru
+    retrieved: 2026-11-15
+  - id: ethiopia-yirgacheffe-washed
+    name: Ethiopia Yirgacheffe Washed
+    forms:
+      - whole_bean
+      - ground
+    roast_level: light
+    process: washed
+    origins:
+      - country: ET
+        region: Yirgacheffe
+    varieties:
+      - ethiopian-landrace
+    altitude_m:
+      min: 2200
+      max: 2300
+    flavor_notes:
+      - black-tea
+      - honey
+      - other-fruit
+    roaster_notes: Earl Grey, Honey, Stone Fruit.
+    url: https://kaffacerrado.com/products/ethiopia-yirgacheffe-washed
+    retrieved: 2026-11-15
+  - id: brazil-santos
+    name: Brazil Santos
+    forms:
+      - whole_bean
+      - ground
+    roast_level: medium
+    process: natural
+    origins:
+      - country: BR
+        region: Santos
+    altitude_m:
+      min: 900
+      max: 1250
+    flavor_notes:
+      - chocolate
+      - hazelnut
+      - honey
+    roaster_notes: Chocolate, Hazelnut, Honey.
+    url: https://kaffacerrado.com/products/brazil-santos
+    retrieved: 2026-11-15

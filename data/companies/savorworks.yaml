@@ -1,0 +1,74 @@
+id: savorworks
+name: Savorworks Roasters
+country: IN
+city: New Delhi
+website: https://www.savorworksroasters.com
+description: Makes artisanal coffee and bean-to-bar chocolate.
+has_cafes: true
+verified: true
+sources:
+  - url: https://www.savorworksroasters.com/
+    retrieved: 2026-11-15
+    note: Contact address in Greater Kailash 2. The site links a dine-in menu, so a dine-in space exists, but its location and menu could not be read.
+  - url: https://www.savorworksroasters.com/collections/all
+    retrieved: 2026-11-15
+beans:
+  - id: bluepine-mooleh-manay
+    name: Bluepine Mooleh Manay Estate
+    forms: &a1
+      - whole_bean
+      - ground
+    process: carbonic-maceration
+    origins:
+      - country: IN
+        region: Coorg
+        producer: Mooleh Manay Estate
+    altitude_m:
+      min: 1000
+      max: 1000
+    flavor_notes:
+      - blueberry
+      - pineapple
+    roaster_notes: Blueberry meets pineapple. Whole-cherry natural with carbonic maceration.
+    url: https://www.savorworksroasters.com/products/bluepine-carbonic-maceration-mooleh-manay
+    retrieved: 2026-11-15
+  - id: heisenberg
+    name: Heisenberg
+    forms: *a1
+    process: natural
+    origins:
+      - country: IN
+        region: Yercaud, Tamil Nadu
+        producer: Riverdale Estate
+    roaster_notes: Annual release; season 7 uses the Iceberg Natural process.
+    url: https://www.savorworksroasters.com/products/heisenberg-season-7-riverdale-estate
+    availability: seasonal
+    retrieved: 2026-11-15
+  - id: honey-im-nuts
+    name: Honey I'm Nuts
+    forms: *a1
+    roast_level: medium
+    process: anaerobic-washed
+    origins:
+      - country: IN
+        region: Chikmagalur, Karnataka
+        producer: Ratnagiri Estate
+    roaster_notes: Giri Patte block; fermented anaerobically, then aerobically with mosto, then washed.
+    url: https://www.savorworksroasters.com/products/honey-im-nuts
+    retrieved: 2026-11-15
+  - id: vienna-dark-roast
+    name: Vienna - Dark Roast
+    forms: *a1
+    roast_level: dark
+    blend: true
+    origins:
+      - country: IN
+        region: Yercaud, Tamil Nadu
+        producer: Riverdale Estate
+    flavor_notes:
+      - hazelnut
+      - dark-chocolate
+      - raisin
+    roaster_notes: Roasted hazelnut, dark chocolate and raisin. High body, low acidity.
+    url: https://www.savorworksroasters.com/products/vienna-dark-roast
+    retrieved: 2026-11-15
